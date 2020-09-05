@@ -19,783 +19,128 @@
     function dynamicUrl(cardSetNo) {
         var url
         switch (cardSetNo) {
-            case 1:
-                url = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
-                break;
-            case 2:
-                url = "https://docs.google.com/uc?export=view&id=1hobhnFjcWQqqVqLCIs11ua02kqAMGl_r";
-                break;
-            case 3:
-                url = "https://docs.google.com/uc?export=view&id=1F058OoGgSFoiekdgIkjBGPv5ctbiA5Vj";
-                break;
-            case 4:
-                url = "https://docs.google.com/uc?export=view&id=1Qe0mLC8YZHiVx7CFxFktdYWnviD5NXVX";
-                break;
-            case 5:
-                url = "https://docs.google.com/uc?export=view&id=1W0HuJP8fO-vt4-dSUj2XRQxeeIZDANih";
-                break;
-            case 6:
-                url = "https://docs.google.com/uc?export=view&id=1PFkxHTe0dXqks2mtRxefNF1QWZisP6zr";
-                break;
-            case 7:
-                url = "https://docs.google.com/uc?export=view&id=1R3g3jaVJHjY5YimSzIujgjOsqkU5-0-g";
-                break;
-            case 8:
-                url = "https://docs.google.com/uc?export=view&id=143MqUM7BXdHfk-n03IkRBI_xOUKczdhM";
-                break;
-            case 9:
-                url = "https://docs.google.com/uc?export=view&id=1-xaTltMm8BG9NObh2RonkEcpioHidWeF";
-                break;
-            case 10:
-                url = "https://docs.google.com/uc?export=view&id=1zxoQeBy4nJY3_ema38qXlVSMqqyFMJRE";
-                break;
-            case 11:
-                url = "https://docs.google.com/uc?export=view&id=19TTUp69LiQEWQ9bJ9b1ZwrA00mofo9IB";
-                break;
-            case 12:
-                url = "https://docs.google.com/uc?export=view&id=1P-3MbldweI2NHfX0ZN4TW9q8i97VsIAY";
-                break;
-            case 13:
-                url = "https://docs.google.com/uc?export=view&id=1Y79_H6gD1lGeyp-M2J4Yv6AQbKjTsrRA";
-                break;
-            case 14:
-                url = "https://docs.google.com/uc?export=view&id=15JoQ7kQAAJPh-0WHr5o3apr20iia8Gxf";
-                break;
-            case 15:
-                url = "https://docs.google.com/uc?export=view&id=1DW6T9ZDwaA_SFAe5wGjv1CIR3XyFlgsC";
-                break;
-            case 16:
-                url = "https://docs.google.com/uc?export=view&id=1ykPP-DMByugOnExVtwB7LQPunJ05OWVf";
-                break;
-            case 17:
-                url = "https://docs.google.com/uc?export=view&id=1clSx_AkARlKUNNIdh4uzCepIofWV_NZg";
-                break;
-            case 18:
-                url = "https://docs.google.com/uc?export=view&id=1W2FKI6a3CNsFbiBO0yZRbY-XyaXwIv5s";
-                break;
-            case 19:
-                url = "https://docs.google.com/uc?export=view&id=1JspTIMn51Cle6XbRu27MdDLNfnkXQW_t";
-                break;
-            case 20:
-                url = "https://docs.google.com/uc?export=view&id=1Leca1BVBkYlgRaBp408S0BuKYYGJBQiS";
-                break;
-            case 21:
-                url = "https://docs.google.com/uc?export=view&id=1zt-ZIhbv4qsPu5U1jpVHprp0vp3FoBwX";
-                break;
-            case 22:
-                url = "https://docs.google.com/uc?export=view&id=1nW6Md8ot9YYk2mEmrwtVaLadDCa3XBpo";
-                break;
-            case 23:
-                url = "https://docs.google.com/uc?export=view&id=1WSbhr-tbhDs0Gvzn5JuLIQ-YHp4lXj5Q";
-                break;
-            case 24:
-                url = "https://docs.google.com/uc?export=view&id=1sVGoc0ytYcm1W58NnCiiHPEfDc6RnBnY";
-                break;
-            case 25:
-                url = "https://docs.google.com/uc?export=view&id=1LgpFpH7HVWNMn8LXT2fiL3_OO6a2Y_8C";
-                break;
-            case 26:
-                url = "https://docs.google.com/uc?export=view&id=1YaTPC9kCXWmYcvmZmwPFfo4L34Iss6KE";
-                break;
-            case 27:
-                url = "https://docs.google.com/uc?export=view&id=1lH52ejqkqdra96kzxHteIWK9r5d2wh0q";
-                break;
-            case 28:
-                url = "https://docs.google.com/uc?export=view&id=1hTGCoCW9D88LMvZjzh-CK4O4Se3u3X3u";
-                break;
-            case 29:
-                url = "https://docs.google.com/uc?export=view&id=1WNWjySjkSt35HOhzGvpfSkRy7qszaHA4";
-                break;
-            case 30:
-                url = "https://docs.google.com/uc?export=view&id=18FRlQMzm9DECqyIYAWEmU30mWe3-SNaU";
-                break;
-            case 31:
-                url = "https://docs.google.com/uc?export=view&id=12_MdI9YiOKtt5DziMveYExeQkaW_fuza";
-                break;
-            case 32:
-                url = "https://docs.google.com/uc?export=view&id=1hZJjFonXGCmCVa9ZWpCBNKd62J1X0gXB";
-                break;
-            case 33:
-                url = "https://docs.google.com/uc?export=view&id=1Upy08UKOW1w5ZmgWXnKuiiOLMY0jQbQE";
-                break;
-            case 34:
-                url = "https://docs.google.com/uc?export=view&id=1-GvEhtYFx2O5T2j99fa0_EfLjgo6Q5C2";
-                break;
-            case 35:
-                url = "https://docs.google.com/uc?export=view&id=1W8eWEB6GgMAEEL_mZaGhvjunGj7Ca5w3";
-                break;
-            case 36:
-                url = "https://docs.google.com/uc?export=view&id=1kYvFyeJyucjaOXpYDNd3sdg_m09ohCEk";
-                break;
-            case 37:
-                url = "https://docs.google.com/uc?export=view&id=15zykcroq1gj8XiU-yFZHeXTs06Xk47On";
-                break;
-            case 38:
-                url = "https://docs.google.com/uc?export=view&id=125mZ_dyHBrOGZi3jvuYUtQOPxvrFaxU5";
-                break;
-            case 39:
-                url = "https://docs.google.com/uc?export=view&id=17HK3jtZ4tTSGjpFbmezYAs3DLIbftN5C";
-                break;
-            case 40:
-                url = "https://docs.google.com/uc?export=view&id=1Nwu-4941RZd-ZSzCdATRGa_3hyAdb7YI";
-                break;
-            case 41:
-                url = "https://docs.google.com/uc?export=view&id=1dXss-3ReP54VDiW1qSo2_dCnffJIpHkK";
-                break;
-            case 42:
-                url = "https://docs.google.com/uc?export=view&id=1gRLL19kWDCqyMHlGLKwyl66pnv5LpC2t";
-                break;
-            case 43:
-                url = "https://docs.google.com/uc?export=view&id=1lIeTcYb55sAHXiSFK98tfUHUfo5dThLH";
-                break;
-            case 44:
-                url = "https://docs.google.com/uc?export=view&id=1PDqEiKYVpRG-sM6wTsNMRH8IVB4m6eW1";
-                break;
-            case 45:
-                url = "https://docs.google.com/uc?export=view&id=16GeSEXwSXmnqy4JgPxreSj7o-LZ4mP9o";
-                break;
-            case 46:
-                url = "https://docs.google.com/uc?export=view&id=1c4xPEu4elmBFt5oohaR_Bg1f6JjUAk-O";
-                break;
-            case 47:
-                url = "https://docs.google.com/uc?export=view&id=1us4hGj3hsE6Z69qYTOi37zp0Hj0tYRT1";
-                break;
-            case 48:
-                url = "https://docs.google.com/uc?export=view&id=1ISmJjgSqAmw-AGO-8mIqHkDr5y5OaP9K";
-                break;
-            case 49:
-                url = "https://docs.google.com/uc?export=view&id=1RqRVQay68gGyqjkyOtn9sWPZN1p-e66G";
-                break;
-            case 50:
-                url = "https://docs.google.com/uc?export=view&id=1bmTBNbBtmXcoQMK4scAqHC9AAMi7z7CP";
-                break;
-            case 51:
-                url = "https://docs.google.com/uc?export=view&id=13VjWidQN59l1wLmy_sW3swRkCP4zwzBp";
-                break;
-            case 52:
-                url = "https://docs.google.com/uc?export=view&id=10zZWrjRdg0goeTtxlrYWzEkRWaOLKcup";
-                break;
-            case 53:
-                url = "https://docs.google.com/uc?export=view&id=1e5jXqkQkrOx6ejnDBIAhfG03AtTcbRdW";
-                break;
-            case 54:
-                url = "https://docs.google.com/uc?export=view&id=1LEYKYi86cOW_qojsYB8dlU-hQEdbBL24";
-                break;
-            case 55:
-                url = "https://docs.google.com/uc?export=view&id=1nGT5ZwWcaKE4Hqi0jovKOK1RSlqslldS";
-                break;
-            case 56:
-                url = "https://docs.google.com/uc?export=view&id=1XJ0RHuHcWAqwghFYxiuanB0HzgxQt9Iy";
-                break;
-            case 57:
-                url = "https://docs.google.com/uc?export=view&id=1OW20oWYy-uG1TBEHT3-XlHLTB3liGws-";
-                break;
-            case 58:
-                url = "https://docs.google.com/uc?export=view&id=11AXdzhAb0b1JsUlr6wf-nyUFn1Fayqa9";
-                break;
-            case 59:
-                url = "https://docs.google.com/uc?export=view&id=186XR09E5bRuwrCb7xcuZQk5BygSnT3eS";
-                break;
-            case 60:
-                url = "https://docs.google.com/uc?export=view&id=1Z-0iCSXqo3DCi4mPS8BOoeHZYL6YjSc-";
-                break;
-            case 61:
-                url = "https://docs.google.com/uc?export=view&id=1Nw_L8gWAw-ThnfMrlE4khnKUiqwoZ7iR";
-                break;
-            case 62:
-                url = "https://docs.google.com/uc?export=view&id=17bZhspRNMcLHsMSJ9W6LGmmZ7BT5iNvF";
-                break;
-            case 63:
-                url = "https://docs.google.com/uc?export=view&id=1Q_Vu2nKx5fk8K0GIGfqzvf82IlyBF83j";
-                break;
-            case 64:
-                url = "https://docs.google.com/uc?export=view&id=1eTsvLU4bsaaJe5BOWTqAsUbRzb9d4xfg";
-                break;
-            case 65:
-                url = "https://docs.google.com/uc?export=view&id=1eUVIS7ue2xqqCgYrf0hZx0nTWZA1-syO";
-                break;
-            case 66:
-                url = "https://docs.google.com/uc?export=view&id=16DsBtHm4LAh5pLi3dLL5QEYF_mSkBcHg";
-                break;
-            case 67:
-                url = "https://docs.google.com/uc?export=view&id=10Gb-70ODC6HRYpcimzToOyEmf7JZdHwx";
-                break;
-            case 68:
-                url = "https://docs.google.com/uc?export=view&id=1MTcnuhAEi1VvJTfYpCafm4sSBQugfSkQ";
-                break;
-            case 69:
-                url = "https://docs.google.com/uc?export=view&id=1VA6QvsBDbPa8HbxX-D5t_Vevz4wcy1_9";
-                break;
-            case 70:
-                url = "https://docs.google.com/uc?export=view&id=1GyAy-vuUeCUk6YDPkySRSf7XPabj8Thd";
-                break;
-            case 71:
-                url = "https://docs.google.com/uc?export=view&id=13piM6W68LnPUYBPo5LmnK2suUJc5XUOL";
-                break;
-            case 72:
-                url = "https://docs.google.com/uc?export=view&id=1u4L1ZHFfudPXFeH3h5A6lJUjnLhgM6Ih";
-                break;
-            case 73:
-                url = "https://docs.google.com/uc?export=view&id=1hu45_Gmcjzu-rqWAiRP6XZZlYPfIJmlz";
-                break;
-            case 74:
-                url = "https://docs.google.com/uc?export=view&id=1o51k0kl4xSokVu_Cy9MoVHehtTtysW7_";
-                break;
-            case 75:
-                url = "https://docs.google.com/uc?export=view&id=17aj8c_eBdDJZET0FaMsNXMLnDQ0dDYI-";
-                break;
-            case 76:
-                url = "https://docs.google.com/uc?export=view&id=1mpg8TO52nJIQ1G61039Hi7Tnr4jAtKUh";
-                break;
-            case 77:
-                url = "https://docs.google.com/uc?export=view&id=1mtEKbZ-adFeX2gnf82d07Myl4a1TMLVp";
-                break;
-            case 78:
-                url = "https://docs.google.com/uc?export=view&id=1YbXwRc4cO6Aj_QCrhnE5jvUXHOmzjXXJ";
-                break;
-            case 79:
-                url = "https://docs.google.com/uc?export=view&id=1MS9Nw3J9WXFAcHeFCRxoWh95nfYHyhc5";
-                break;
-            case 80:
-                url = "https://docs.google.com/uc?export=view&id=1P-Vkc6xwpg1adEUTSyvB9UOINaKiBYMr";
-                break;
-            case 81:
-                url = "https://docs.google.com/uc?export=view&id=1kTJy7Jx6ner06sjxEAil6hCagkmK3Skj";
-                break;
-            case 82:
-                url = "https://docs.google.com/uc?export=view&id=1prl1Lzhref7l1dvFYNpMGGrOHWDEQqKA";
-                break;
-            case 83:
-                url = "https://docs.google.com/uc?export=view&id=1e5XPVT-KDzGVLJoyDXCdUvLmpbvFsysg";
-                break;
-            case 84:
-                url = "https://docs.google.com/uc?export=view&id=1_oi2h2HbesUPqnG8j4IIpqzd1voK7twF";
-                break;
-            case 85:
-                url = "https://docs.google.com/uc?export=view&id=1wjGNN8JtUhEGXe2aJxHrcNVnJNJSnzCL";
-                break;
-            case 86:
-                url = "https://docs.google.com/uc?export=view&id=1wDf7tyggx42FXUdDL3le917ya2TuU28Y";
-                break;
-            case 87:
-                url = "https://docs.google.com/uc?export=view&id=1uiJEK5CV8f2_1fSoEWDgxbl7F-GCHdiu";
-                break;
-            case 88:
-                url = "https://docs.google.com/uc?export=view&id=1BanoKw-JSvZge4laIQDOFXthTdqdP-l3";
-                break;
-            case 89:
-                url = "https://docs.google.com/uc?export=view&id=16wv7YF_a6euozEaoZQ-z6JUn8wC-6gdQ";
-                break;
-            case 90:
-                url = "https://docs.google.com/uc?export=view&id=1HUERRwgG07j31PfcP-EHxt1IRpfb3TeZ";
-                break;
-            case 91:
-                url = "https://docs.google.com/uc?export=view&id=19Y_4k4E13URgWjddtvOr6TtBdxNioQmd";
-                break;
-            case 92:
-                url = "https://docs.google.com/uc?export=view&id=1tl3y7p50lqtVycXSZ0CUHMdSjyAiVOlI";
-                break;
-            case 93:
-                url = "https://docs.google.com/uc?export=view&id=1DgOOx4zDsAa16Y13-hbjhVgtGluQRWeD";
-                break;
-            case 94:
-                url = "https://docs.google.com/uc?export=view&id=1e9eO47fY1CVfq8gkJ1vxfnPtVig2L56g";
-                break;
-            case 95:
-                url = "https://docs.google.com/uc?export=view&id=1NmKQ2X3rWrCBJndsTS8KD_LBwTmhbtuJ";
-                break;
-            case 96:
-                url = "https://docs.google.com/uc?export=view&id=1D25kHG31Qo8tkE1bAA2OuFKOEmg5N868";
-                break;
-            case 97:
-                url = "https://docs.google.com/uc?export=view&id=12rzKt_a7iQQT19yLR45i5fBSmc-_kwUb";
-                break;
-            case 98:
-                url = "https://docs.google.com/uc?export=view&id=1LzKz3j_0FavyNKO0Mz22P6z81G9GJQ6Q";
-                break;
-            case 99:
-                url = "https://docs.google.com/uc?export=view&id=11IoS2xcS0tfrC5Rch-4hjzcT4y3jFdAn";
-                break;
-            case 100:
-                url = "https://docs.google.com/uc?export=view&id=190SeFZIJ1S8mmQTAhox0q385p-eEUibD";
-                break;
-            case 101:
-                url = "https://docs.google.com/uc?export=view&id=15DwzBkXuo2J3s4GPzUW5o1YO9Ewi2t7T";
-                break;
-            case 102:
-                url = "https://docs.google.com/uc?export=view&id=1VjqYQeN1yXKS84Zl_821icX77p1rC9wl";
-                break;
-            case 103:
-                url = "https://docs.google.com/uc?export=view&id=1vyP7UexvycXCUPQGFtLkxsVf3a-kX1Tk";
-                break;
-            case 104:
-                url = "https://docs.google.com/uc?export=view&id=1Ni-lemLLEuGuiuz8FT3AT25m28wTK2wC";
-                break;
-            case 105:
-                url = "https://docs.google.com/uc?export=view&id=11oky8-GtzBdj7yMUxVJmhdEAW1m_WUUn";
-                break;
-            case 106:
-                url = "https://docs.google.com/uc?export=view&id=1yBsPRso_rh-EquvxM06KbOKrK9rWn1J0";
-                break;
-            case 107:
-                url = "https://docs.google.com/uc?export=view&id=1i4gb7AycqauZ9FICppcMuEbMGv7c_u3H";
-                break;
-            case 108:
-                url = "https://docs.google.com/uc?export=view&id=15fDnxQQ33aJHBuKF_TGr9tGAlP7hHwHl";
-                break;
-            case 109:
-                url = "https://docs.google.com/uc?export=view&id=1MGdOiyxFwxseBOIKePGipO3DyuHBlIP9";
-                break;
-            case 110:
-                url = "https://docs.google.com/uc?export=view&id=14m2O4G29h1o64rgnuGpeFa3yQbKoYvio";
-                break;
-            case 111:
-                url = "https://docs.google.com/uc?export=view&id=1MY4WrjSqP2ESGS1ePX_QahdyfSK-GGt_";
-                break;
-            case 112:
-                url = "https://docs.google.com/uc?export=view&id=1PLTuoHOUfaBsApmtp6Mcd6PuJeAtjlj1";
-                break;
-            case 113:
-                url = "https://docs.google.com/uc?export=view&id=1JAMzecI48UUnEDNBze9zNtts9VVx0p9w";
-                break;
-            case 114:
-                url = "https://docs.google.com/uc?export=view&id=1rqJ31utRNFmwxSva3k_hgDQX-g12hQDK";
-                break;
-            case 115:
-                url = "https://docs.google.com/uc?export=view&id=19YesKYXr7hygngyjH9xPEKgu3e1fwbTx";
-                break;
-            case 116:
-                url = "https://docs.google.com/uc?export=view&id=1gE4wNsYd2evYH9qV3szJkPWmvz5Aawfe";
-                break;
-            case 117:
-                url = "https://docs.google.com/uc?export=view&id=1cK33aEeKqgiZYjhibh96YTo6s9uMRpvL";
-                break;
-            case 118:
-                url = "https://docs.google.com/uc?export=view&id=1_St7oDMuOFd3MMNJQwQkz7ZtkbA5u2UQ";
-                break;
-            case 119:
-                url = "https://docs.google.com/uc?export=view&id=18_2LY3tOHub6CvLxAMsOGYl7EAX0EDPy";
-                break;
-            case 120:
-                url = "https://docs.google.com/uc?export=view&id=1olLOmg30sMcCfZeWWNm2d8WdXrvLxV4l";
-                break;
-            case 121:
-                url = "https://docs.google.com/uc?export=view&id=1oOoY85PEZasVaI-bHLnWsDTQr8YDicH7";
-                break;
-            case 122:
-                url = "https://docs.google.com/uc?export=view&id=1fhQoD28kWwJxUmqQfTfnIb8kUngWQqD7";
-                break;
-            case 123:
-                url = "https://docs.google.com/uc?export=view&id=1IVZ3XwBDAaETVJ4-oaUQFAvU6TrMqYa5";
-                break;
-            case 124:
-                url = "https://docs.google.com/uc?export=view&id=1xjc9E0-S9M-8KlzyYqxmvu5FZSEljO4u";
-                break;
-            case 125:
-                url = "https://docs.google.com/uc?export=view&id=1GgAaZs4TFdsisfcFipSyNqRXeO3Qr9YT";
-                break;
-            case 126:
-                url = "https://docs.google.com/uc?export=view&id=1VnatNpJDTVU78ai5LGj7J384_zI6jly8";
-                break;
-            case 127:
-                url = "https://docs.google.com/uc?export=view&id=18N8-R_IM2ipbExKILYqE85X6wKIvJ-aU";
-                break;
-            case 128:
-                url = "https://docs.google.com/uc?export=view&id=1WUQcQ5QbiRl1CXf7XvnIQZd7Tj85Udv9";
-                break;
-            case 129:
-                url = "https://docs.google.com/uc?export=view&id=1RD3erkWVKr69i3gREuCGJzCv_JVDOU7N";
-                break;
-            case 130:
-                url = "https://docs.google.com/uc?export=view&id=1vWKexz1QS7iftEPAnMaJz1Hhuu_Rziij";
-                break;
-            case 131:
-                url = "https://docs.google.com/uc?export=view&id=1j78z-pQ3eNkaXiciFgEsokPAi3qSuJpk";
-                break;
-            case 132:
-                url = "https://docs.google.com/uc?export=view&id=1uHjk-AiSWZR6xyw95wfoSzpIUDbMiTSj";
-                break;
-            case 133:
-                url = "https://docs.google.com/uc?export=view&id=1PHSuS7NSbZso6hXX3Ggf7U34M3TFnBVm";
-                break;
-            case 134:
-                url = "https://docs.google.com/uc?export=view&id=1Mx4zYxXDGDAhcDlDX3oFmwa5NgdeJSwJ";
-                break;
-            case 135:
-                url = "https://docs.google.com/uc?export=view&id=1QhodZ74hHkjeyzHIe6nLa9yRGZUcYvzr";
-                break;
-            case 136:
-                url = "https://docs.google.com/uc?export=view&id=1Wb_QdGS48du7gtl5UHuxTmM3wRFHwFwh";
-                break;
-            case 137:
-                url = "https://docs.google.com/uc?export=view&id=1hKP0zFiYOzeUi8kXtmKMUWZmrIzLM1Xu";
-                break;
-            case 138:
-                url = "https://docs.google.com/uc?export=view&id=1Tyo06Qb_ideNrXkM7YseQXCREgVinpWG";
-                break;
-            case 139:
-                url = "https://docs.google.com/uc?export=view&id=1NwTjIVS16neROrK8TdU1ixzlSSDESGCG";
-                break;
-            case 140:
-                url = "https://docs.google.com/uc?export=view&id=1y7vud9-STYkiIW_BXw8RQPo1OV-Koa3E";
-                break;
-            case 141:
-                url = "https://docs.google.com/uc?export=view&id=1NEnNdstrrcWkyAD4uEiivf7j-65hvAhv";
-                break;
-            case 142:
-                url = "https://docs.google.com/uc?export=view&id=1cvzfKcYnLBExgI4gdQOalunpRzZ27TLs";
-                break;
-            case 143:
-                url = "https://docs.google.com/uc?export=view&id=1cYYQEM2XZKDsF-o6u4f3M_sOUIoOJ90l";
-                break;
-            case 144:
-                url = "https://docs.google.com/uc?export=view&id=1g5ikdoBfxvs1zBnWm7qpN7RSB2div6mS";
-                break;
-            case 145:
-                url = "https://docs.google.com/uc?export=view&id=1JKmgCKNZtW7Xu-0xaLjOJw78WKvXKx-x";
-                break;
-            case 146:
-                url = "https://docs.google.com/uc?export=view&id=1J84mrH-6RxUPDFJDwFbMNZkImEsnGwhj";
-                break;
-            case 147:
-                url = "https://docs.google.com/uc?export=view&id=1gE2bsPAp32zx3nZCKyQSUtvwZ94CFH8z";
-                break;
-            case 148:
-                url = "https://docs.google.com/uc?export=view&id=1XZhKTfCKVA-VA60oANrV_Vu-n6Rv984s";
-                break;
-            case 149:
-                url = "https://docs.google.com/uc?export=view&id=1VPHIYUAw75On5Ouh0W39wT3ADpP55TJn";
-                break;
-            case 150:
-                url = "https://docs.google.com/uc?export=view&id=1c_Ejdi-xrA4l2XahPi7TDRJtnyKx33Jw";
-                break;
-            case 151:
-                url = "https://docs.google.com/uc?export=view&id=16ZnCBwdyi0GSiYdm2xXnw74Vj3_uUFPu";
-                break;
-            case 152:
-                url = "https://docs.google.com/uc?export=view&id=1UbceUjNO0AZ_sAT-EE5MtOrm6jEkP5AP";
-                break;
-            case 153:
-                url = "https://docs.google.com/uc?export=view&id=1zZ78OPvRfDp0JyrwfRCYoW2WfDQW0Wi8";
-                break;
-            case 154:
-                url = "https://docs.google.com/uc?export=view&id=1u2RcG57IpqtegV7ZVnuSc6s65vezIoNH";
-                break;
-            case 155:
-                url = "https://docs.google.com/uc?export=view&id=18K6xPmwwhzX8qLgMKwx_U9Zt2e0tzTSg";
-                break;
-            case 156:
-                url = "https://docs.google.com/uc?export=view&id=1AUuX8kVekL4BDRPTEHoF4o3lVkbsXrro";
-                break;
-            case 157:
-                url = "https://docs.google.com/uc?export=view&id=1DWnBAMNWgj_TlVMuFgGjVm9kw0yjLVho";
-                break;
-            case 158:
-                url = "https://docs.google.com/uc?export=view&id=11rT_K_id2qut80CB05t8mFq_igBPdOj8";
-                break;
-            case 159:
-                url = "https://docs.google.com/uc?export=view&id=1TfWG0qdqavZ4LDWCcdk0xSnfRVkUsXlY";
-                break;
-            case 160:
-                url = "https://docs.google.com/uc?export=view&id=14AoHbBOAbZ0Za7DHFm1iamn8oLmKrNo-";
-                break;
-            case 161:
-                url = "https://docs.google.com/uc?export=view&id=1JDcnyfDGL7s8pvC65-2JdqWS3PiRrfan";
-                break;
-            case 162:
-                url = "https://docs.google.com/uc?export=view&id=1uuOUQiiCUnhcd7mlTBqFdXlkzlh_5-s3";
-                break;
-            case 163:
-                url = "https://docs.google.com/uc?export=view&id=1olJ-5xdWluGEhGF1PYMApmSZ4EJGe8QU";
-                break;
-            case 164:
-                url = "https://docs.google.com/uc?export=view&id=1X3u-ZYn2CiEmKI8_uGjDAyUFCmqzHQxz";
-                break;
-            case 165:
-                url = "https://docs.google.com/uc?export=view&id=1HeeC1hBqkcGLYB6ppZa81uZYwsLo2qVW";
-                break;
-            case 166:
-                url = "https://docs.google.com/uc?export=view&id=1NrGlTsqFuvlbPMP1hBMvkYt5eazkImOb";
-                break;
-            case 167:
-                url = "https://docs.google.com/uc?export=view&id=1KJouYlrsM1aC3lE8zxquzvySdg2l1WwU";
-                break;
-            case 168:
-                url = "https://docs.google.com/uc?export=view&id=1Hk3bk0JIIAu6AeNrRupPmIkwx5LC8i6x";
-                break;
-            case 169:
-                url = "https://docs.google.com/uc?export=view&id=1JYcyXQdQ8c3rxXVeAFa847-qaOaCD3lY";
-                break;
-            case 170:
-                url = "https://docs.google.com/uc?export=view&id=1d4UV9AIhB4MVMGfn2sSH6FvKTi_OyaZV";
-                break;
-            case 171:
-                url = "https://docs.google.com/uc?export=view&id=1t5PlwUsVW8M_bTV2ThutYSGicUJnieAj";
-                break;
-            case 172:
-                url = "https://docs.google.com/uc?export=view&id=1QH2HNQbClHFD7WoHSmbmCvYHZBvVCl3Q";
-                break;
-            case 173:
-                url = "https://docs.google.com/uc?export=view&id=1WDxL4HecaVayAx3TS6NZRygeZQuWpQTD";
-                break;
-            case 174:
-                url = "https://docs.google.com/uc?export=view&id=1-D2O0OL0asJ26gWi4ps4n8smlJcqcBqe";
-                break;
-            case 175:
-                url = "https://docs.google.com/uc?export=view&id=1uso3jCch0h1UQfQo9_CaSw7T4rD_Gui8";
-                break;
-            case 176:
-                url = "https://docs.google.com/uc?export=view&id=1h3sQAe1PJS7FAQkF8bT9cEBplkJRIy58";
-                break;
-            case 177:
-                url = "https://docs.google.com/uc?export=view&id=1OCyxBfAS67UGg5FND2trl5N0V_vfCqoU";
-                break;
-            case 178:
-                url = "https://docs.google.com/uc?export=view&id=1ouoWNKeuPPMQY3ZlltiZsd12SVcUHP5j";
-                break;
-            case 179:
-                url = "https://docs.google.com/uc?export=view&id=1TYX_X5fVlrP4Ct8SQdAGJifDgcMYE_cb";
-                break;
-            case 180:
-                url = "https://docs.google.com/uc?export=view&id=1t-Tajg3HZdgSa_CX7ARvdfsdtbjyUYGL";
-                break;
-            case 181:
-                url = "https://docs.google.com/uc?export=view&id=1vWVMctFjhOvfndCp11AG1X_xm-F0-0Fr";
-                break;
-            case 182:
-                url = "https://docs.google.com/uc?export=view&id=1GXxVUGpPP8i9uEGIfB7D1MOdNYF31zR3";
-                break;
-            case 183:
-                url = "https://docs.google.com/uc?export=view&id=1YGJP_4irrr-8-wDwC4Cal4jJ32g1X2JO";
-                break;
-            case 184:
-                url = "https://docs.google.com/uc?export=view&id=1UGIoolOsn2k7q9NNImwQwhTM6b6oXR8N";
-                break;
-            case 185:
-                url = "https://docs.google.com/uc?export=view&id=1s_-VfFhRy4jIIvUgmMYB9MuGJChaFP1m";
-                break;
-            case 186:
-                url = "https://docs.google.com/uc?export=view&id=129u5AZS61FIdLmu-4c8d-ZcNR-ipdbHs";
-                break;
-            case 187:
-                url = "https://docs.google.com/uc?export=view&id=1IcoaGa1qg1dVQJBlUXuX5iS0wmpwhhJM";
-                break;
-            case 188:
-                url = "https://docs.google.com/uc?export=view&id=1X3DGRe5DRjGsD6XgxHsqq0KeP-I8n4ED";
-                break;
-            case 189:
-                url = "https://docs.google.com/uc?export=view&id=1o_l6IN9m0ki-a7O1V9PwM0vco0fL6Smp";
-                break;
-            case 190:
-                url = "https://docs.google.com/uc?export=view&id=1pFSpXgUsWMzapBBD6AtICR4eTS9v3QkX";
-                break;
-            case 191:
-                url = "https://docs.google.com/uc?export=view&id=1PFL781x4mOdgH-jzWLmRUB1F_xIfniPv";
-                break;
-            case 192:
-                url = "https://docs.google.com/uc?export=view&id=1UzuyOc--AV2BCD-JDGaJLw-k_YwKytJ6";
-                break;
-            case 193:
-                url = "https://docs.google.com/uc?export=view&id=10X4_Gn6d7aB5mulEM4idECaKGGvUN0J1";
-                break;
-            case 194:
-                url = "https://docs.google.com/uc?export=view&id=1q03zfaMbbtk-TjR0Lslk8P4ZAAiAjXH0";
-                break;
-            case 195:
-                url = "https://docs.google.com/uc?export=view&id=1zVtm53NjEJmVontZj4y5KWiWcyMYxcir";
-                break;
-            case 196:
-                url = "https://docs.google.com/uc?export=view&id=1qk3Mcpr2RQFdISHyfBAfL8dPxUM7elI3";
-                break;
-            case 197:
-                url = "https://docs.google.com/uc?export=view&id=1pTBFWALn6HPpvW48thr1holVLSWhZYQf";
-                break;
-            case 198:
-                url = "https://docs.google.com/uc?export=view&id=10fhB9RVmpRpIsyzMNBNatGtE1oAjN2Dv";
-                break;
-            case 199:
-                url = "https://docs.google.com/uc?export=view&id=1YnSp1URcbjGDkhxIbOHPFdAP8Is3IRnJ";
-                break;
-            case 200:
-                url = "https://docs.google.com/uc?export=view&id=1Qgm4IOwQXWxHM1JuWF4I34I2vk87w774";
-                break;
-            case 201:
-                url = "https://docs.google.com/uc?export=view&id=18tq1fYzMcIOFCy_HnC_LfStb0xgqoqVE";
-                break;
-            case 202:
-                url = "https://docs.google.com/uc?export=view&id=1xudBEEz5g8XtcD2KOHfWCHQReq6KQdai";
-                break;
-            case 203:
-                url = "https://docs.google.com/uc?export=view&id=1KD1Nf13XBOOT82SbaiNwWxG858v4Xr-W";
-                break;
-            case 204:
-                url = "https://docs.google.com/uc?export=view&id=1ddd3C9B8sJ90ZY-_FC3y2u_8MGj3jtuq";
-                break;
-            case 205:
-                url = "https://docs.google.com/uc?export=view&id=1NiXQnmbGSC6WmuwC6f8nJRR04F8qvQtK";
-                break;
-            case 206:
-                url = "https://docs.google.com/uc?export=view&id=1mpHIeL27ytj8ZVWwuAWEhAjDEOl4Iuex";
-                break;
-            case 207:
-                url = "https://docs.google.com/uc?export=view&id=1reFGMgfXNiwe2k-pDub9Ma9X1mfuupiv";
-                break;
-            case 208:
-                url = "https://docs.google.com/uc?export=view&id=10Ysj8qOGruzketRaE7QeF3cKRUDuD_7x";
-                break;
-            case 209:
-                url = "https://docs.google.com/uc?export=view&id=18MPHY92-lgHml_jhYkxUDGZSOUAFWxBP";
-                break;
-            case 210:
-                url = "https://docs.google.com/uc?export=view&id=1Nnt8BllArHcL3tTOQixKl6YRrDDW_M1b";
-                break;
-            case 211:
-                url = "https://docs.google.com/uc?export=view&id=1qZgU_3I8R6RYxdTQEF890e_IeaW0skRb";
-                break;
-            case 212:
-                url = "https://docs.google.com/uc?export=view&id=1ZeF_TfMhm64OULowse_fSQoklzjkfOus";
-                break;
-            case 213:
-                url = "https://docs.google.com/uc?export=view&id=1DLhdfMJk98dSaLk-83QVUxThHAOU6PjA";
-                break;
-            case 214:
-                url = "https://docs.google.com/uc?export=view&id=1lSWoGj9sUm08kTi2uAypu5oZRwyZRlft";
-                break;
-            case 215:
-                url = "https://docs.google.com/uc?export=view&id=1J5-jj7rL1_hCDpTw8tV0iZwIN_F7419k";
-                break;
-            case 216:
-                url = "https://docs.google.com/uc?export=view&id=1Z5qYkG-06s2rE4GFGQezmXl8sx7kLflE";
-                break;
-            case 217:
-                url = "https://docs.google.com/uc?export=view&id=1oDOakTFVdJeo3m5zE7fLyVx9sqMUUBQf";
-                break;
-            case 218:
-                url = "https://docs.google.com/uc?export=view&id=1aZpjNgaHeJE6DWOc1tlIroHraBbncF3z";
-                break;
-            case 219:
-                url = "https://docs.google.com/uc?export=view&id=1PWwgkaOha9AsaLUw34LrXbSWKGY1UlGl";
-                break;
-            case 220:
-                url = "https://docs.google.com/uc?export=view&id=1uMXyXrxZbNRp3zh7KTQdlccG6p-iZtQP";
-                break;
-            case 221:
-                url = "https://docs.google.com/uc?export=view&id=1Yx0KonLWSkCUzi5ERIsbMITTGOQF9m8O";
-                break;
-            case 222:
-                url = "https://docs.google.com/uc?export=view&id=1JEFFnyTZqbyR-b8dh8-HEUhZMhEVvhej";
-                break;
-            case 223:
-                url = "https://docs.google.com/uc?export=view&id=1pGaG4oJgyeyAvoD2jMpLHldXBO8aMwck";
-                break;
-            case 224:
-                url = "https://docs.google.com/uc?export=view&id=1cu1zrWSRoQU772K_5ZOHE6sfc6T5Ynbw";
-                break;
-            case 225:
-                url = "https://docs.google.com/uc?export=view&id=1XjZ1gxPGqNe3Gf5uAhCvldGaoAYHYGkZ";
-                break;
-            case 226:
-                url = "https://docs.google.com/uc?export=view&id=1Po9oCQlGzh8BMkeAgagysQbamwUo35Eb";
-                break;
-            case 227:
-                url = "https://docs.google.com/uc?export=view&id=1STGs4ucfI6igB2ypO-tMGFODp40HM980";
-                break;
-            case 228:
-                url = "https://docs.google.com/uc?export=view&id=150AZJCqD3tqGG7DSPbQR4uDq_za7csTa";
-                break;
-            case 229:
-                url = "https://docs.google.com/uc?export=view&id=1or3aF1Bp_LoFs9tgUyjTAen50dtvfJPz";
-                break;
-            case 230:
-                url = "https://docs.google.com/uc?export=view&id=1R341X0KslSVtFXuIEV78H0iaxgCb6sll";
-                break;
-            case 231:
-                url = "https://docs.google.com/uc?export=view&id=1Hae7arixowbThK9QrN2g7FT8Ms57roy-";
-                break;
-            case 232:
-                url = "https://docs.google.com/uc?export=view&id=1za3mZhBGCZ69jM0Rtw0zaVmx-NlEAmbJ";
-                break;
-            case 233:
-                url = "https://docs.google.com/uc?export=view&id=1yc8ABMiL0PudUOCqtY5sB0Ghvpkqw_eG";
-                break;
-            case 234:
-                url = "https://docs.google.com/uc?export=view&id=1MjOcOCC4uzTke9cwwREoIIHO--RquE76";
-                break;
-            case 235:
-                url = "https://docs.google.com/uc?export=view&id=1VxbOz-h3bmzQ3W43CwPPHY1je2gaHb-U";
-                break;
-            case 236:
-                url = "https://docs.google.com/uc?export=view&id=1l5doffiSUPd55Q2gy7fAOU3CYHQNlBC3";
-                break;
-            case 237:
-                url = "https://docs.google.com/uc?export=view&id=1KfIGO3T4CIWdboFOeRuHretRHKahQADv";
-                break;
-            case 238:
-                url = "https://docs.google.com/uc?export=view&id=17pDNCJ5TS5sA8-F3WNvtIFJ_Nan6EylS";
-                break;
-            case 239:
-                url = "https://docs.google.com/uc?export=view&id=1BQAa-y2tltzOeBB0rTon0GfGoUBoZc0p";
-                break;
-            case 240:
-                url = "https://docs.google.com/uc?export=view&id=1nGqIaLeN5J9okPqYXIhc7OCUS_wUEwlq";
-                break;
-            case 241:
-                url = "https://docs.google.com/uc?export=view&id=1ttyYaCPlbm9IqXejqI-9Rs5Qgc6l9Dbq";
-                break;
-            case 242:
-                url = "https://docs.google.com/uc?export=view&id=1hWtc7fiPGcjr0L7Q7S0vJYRbERjyBLyg";
-                break;
-            case 243:
-                url = "https://docs.google.com/uc?export=view&id=1V2lN6qHwNb8X9Ena5nWNq6rAH6pDzoia";
-                break;
-            case 244:
-                url = "https://docs.google.com/uc?export=view&id=1Q2P5mGvCgc_H-F_BuWnkoMQLczf2kHVm";
-                break;
-            case 245:
-                url = "https://docs.google.com/uc?export=view&id=1_eYgXIKaqW6wdfaK2V-RRezQmyRpOETO";
-                break;
-            case 246:
-                url = "https://docs.google.com/uc?export=view&id=1uAIWRS_YrBKiAdh42S5SP-UegfCnROmE";
-                break;
-            case 247:
-                url = "https://docs.google.com/uc?export=view&id=1WCYXqCXRc5hLeU1kwfvxz5zefmvRqX4h";
-                break;
-            case 248:
-                url = "https://docs.google.com/uc?export=view&id=1oQ0Qz4Sk5u4-20T8e4WdTM9L_XRCZtKN";
-                break;
-            case 249:
-                url = "https://docs.google.com/uc?export=view&id=1hBWXtRVQSP0wE0xZuCwLbqQJk9MUhBeD";
-                break;
-            case 250:
-                url = "https://docs.google.com/uc?export=view&id=1g-hA6IfqvdpUcxPuOX_knIO8j73pMmBp";
-                break;
-            case 251:
-                url = "https://docs.google.com/uc?export=view&id=1ImEjjbFJ7PeLkCcwwnEoyUVGUMxwprw-";
-                break;
-            case 252:
-                url = "https://docs.google.com/uc?export=view&id=1ja_ZlaUj_AixI1eDmU3k94DUyCkeZCp2";
-                break;
-            case 253:
-                url = "https://docs.google.com/uc?export=view&id=1atdheq_ci5ukeaTwrghKsaCPidw5V1oE";
-                break;
-            case 254:
-                url = "https://docs.google.com/uc?export=view&id=1mWf_9LNMZ5cpLJJCR0syW2NYLU1xr-__";
-                break;
-            case 255:
-                url = "https://docs.google.com/uc?export=view&id=1ZnEjpJ4lbrfPShHfk_DDShCbKPWKK_N3";
-                break;
-            case 256:
-                url = "https://docs.google.com/uc?export=view&id=1BdUUzUK4nCY0lE4F-4Eiq4cM8niKt-ay";
-                break;
-            case 257:
-                url = "https://docs.google.com/uc?export=view&id=1BDo5N937DQclKSRlGRITlnuoLuo2fevO";
-                break;
-            case 258:
-                url = "https://docs.google.com/uc?export=view&id=1YgeTNHnMLo7qc5gX7qxfuOlZcBQ-Uyk4";
-                break;
-            case 259:
-                url = "https://docs.google.com/uc?export=view&id=1esnAmzoisdhAwVDQqGxOw722JCWmawX7";
-                break;
+           case 1: url = "https://drive.google.com/file/d/1uX4LJ8yBMmjoLQWGcVvtwqEKzBfcyx2q/view?usp=drivesdk"; break;
+case 2: url = "https://drive.google.com/file/d/11XYpKo74seGPPOujsdkUNwy0c3XoDpNO/view?usp=drivesdk"; break;
+case 3: url = "https://drive.google.com/file/d/1akTjI0uJacDLyR3BWFgFVO6B70NU3yUA/view?usp=drivesdk"; break;
+case 4: url = "https://drive.google.com/file/d/1l0icI-HFU5DnfRpG3lgKTaLABY-lTQjA/view?usp=drivesdk"; break;
+case 5: url = "https://drive.google.com/file/d/1z1cj5Ech_DBHNKDuBa4MKmMgPnGIJDr_/view?usp=drivesdk"; break;
+case 6: url = "https://drive.google.com/file/d/1PgMBo4_PIxsmGlSkoatrFwX2PSGMmWkX/view?usp=drivesdk"; break;
+case 7: url = "https://drive.google.com/file/d/1iAAy9K2Weq5u8_1ltEzmAad75eFeKg8d/view?usp=drivesdk"; break;
+case 8: url = "https://drive.google.com/file/d/1e0tSCkLtdzehSZWNUwApF0EdrW7qh2_C/view?usp=drivesdk"; break;
+case 9: url = "https://drive.google.com/file/d/1VFyp3yv6_zFHBe-G99VIneOuF3SIgDrA/view?usp=drivesdk"; break;
+case 10: url = "https://drive.google.com/file/d/18a8MvY4mAayEuaU5VoeduZL_Sndn2d0s/view?usp=drivesdk"; break;
+case 11: url = "https://drive.google.com/file/d/1Ze4h7BnPEyDzaEvBQOGgx963bmv_EW_9/view?usp=drivesdk"; break;
+case 12: url = "https://drive.google.com/file/d/1ZqLHqD3KLbuSyBDg5SOqvgse45DPjyjv/view?usp=drivesdk"; break;
+case 13: url = "https://drive.google.com/file/d/1n2AdXpP__YpDPHWt0uUaJKiLJPqQylOz/view?usp=drivesdk"; break;
+case 14: url = "https://drive.google.com/file/d/1-RNgy6O7N8dK8NJf1dbmfAv-hiltZsut/view?usp=drivesdk"; break;
+case 15: url = "https://drive.google.com/file/d/17q1PtUEWPQ3nGjdQTCWKla__wqADAKzo/view?usp=drivesdk"; break;
+case 16: url = "https://drive.google.com/file/d/1c6zr4pHvJynRyXOB-pPqbQbH_kaakweh/view?usp=drivesdk"; break;
+case 17: url = "https://drive.google.com/file/d/1vNguW-fzhB-YHql36kCDUeotHzBxDm26/view?usp=drivesdk"; break;
+case 18: url = "https://drive.google.com/file/d/1taE6Kd3DLPspCke5GAYOSiecwIeG4-pT/view?usp=drivesdk"; break;
+case 19: url = "https://drive.google.com/file/d/1BDK4eHpTqf9VEE0tT2iRhilSk1-cmOP_/view?usp=drivesdk"; break;
+case 20: url = "https://drive.google.com/file/d/1z5aCgVo4Pp2u45YIN-Qnhhga1ve3SBGS/view?usp=drivesdk"; break;
+case 21: url = "https://drive.google.com/file/d/1QXC0ohLTYN8w7pvv2QlJR6lgulzeKEOp/view?usp=drivesdk"; break;
+case 22: url = "https://drive.google.com/file/d/1f39sfMGUYkMQryxxsiXmRJeA0ZdNoO5k/view?usp=drivesdk"; break;
+case 23: url = "https://drive.google.com/file/d/1MgSmixZLFE46bddxiQnDmy-rk9wgf4px/view?usp=drivesdk"; break;
+case 24: url = "https://drive.google.com/file/d/1r6Oz5xyeDGE8BnHjrRrLwTPEWr75ZQfq/view?usp=drivesdk"; break;
+case 25: url = "https://drive.google.com/file/d/1T5Z4Y6LOsSLk54j2TORDyTaNmn5vNm9p/view?usp=drivesdk"; break;
+case 26: url = "https://drive.google.com/file/d/1AaN-xEdotQygrJQusfn3g6UlN88U1BFl/view?usp=drivesdk"; break;
+case 27: url = "https://drive.google.com/file/d/151Qiy-Zj0o_Iwx6CrTreIfGGi2P0CEVd/view?usp=drivesdk"; break;
+case 28: url = "https://drive.google.com/file/d/1L-xcvSpzlQQ7pHxzPsJKX1_GNIcfxoFa/view?usp=drivesdk"; break;
+case 29: url = "https://drive.google.com/file/d/1hJtOM-5pu2e2U0zoa_XXzditPsQjKXoa/view?usp=drivesdk"; break;
+case 30: url = "https://drive.google.com/file/d/1KKuljXi_EIZlFNL8ZGF7o-Ltlu75cUXk/view?usp=drivesdk"; break;
+case 31: url = "https://drive.google.com/file/d/1Efrblp6pfc7-2vPTvs59ZN7nsn-K12mU/view?usp=drivesdk"; break;
+case 32: url = "https://drive.google.com/file/d/1OKYVoE1FswLIuplgeAqXLEIvTyo-3SSW/view?usp=drivesdk"; break;
+case 33: url = "https://drive.google.com/file/d/1g5_eZ0YWKsRKou400SG2qHpdZQ6J-hzP/view?usp=drivesdk"; break;
+case 34: url = "https://drive.google.com/file/d/1KV08RxHSrILWWOb2gAXEZnUMf1Tuexpz/view?usp=drivesdk"; break;
+case 35: url = "https://drive.google.com/file/d/1oCGbBBPp38NbtGemZRK45gRuM-E3lPPN/view?usp=drivesdk"; break;
+case 36: url = "https://drive.google.com/file/d/1XVNwS85xM7zxoe6Ad7pJZGs-1Y7lXnQ5/view?usp=drivesdk"; break;
+case 37: url = "https://drive.google.com/file/d/11zfD5AGa5yDxl9FbDNCSBKlbESS9jTRx/view?usp=drivesdk"; break;
+case 38: url = "https://drive.google.com/file/d/1zvp-OIeihFojyBIkw9H61L8EPdUKimdx/view?usp=drivesdk"; break;
+case 39: url = "https://drive.google.com/file/d/1g5zDx6ft38S_8s8patsCSG0Td5x9qZhP/view?usp=drivesdk"; break;
+case 40: url = "https://drive.google.com/file/d/1bMHisZi1XduPgETiEPC3giLDvSw0DPks/view?usp=drivesdk"; break;
+case 41: url = "https://drive.google.com/file/d/1dLbHnkkk_ZYisU-GcJt1NgCxpQn_pM6x/view?usp=drivesdk"; break;
+case 42: url = "https://drive.google.com/file/d/1hCa5zP9MQqjysY5AW09FUcDo2w1zN_kh/view?usp=drivesdk"; break;
+case 43: url = "https://drive.google.com/file/d/1rmVjcTV8Z6Qm9L64a0PPZkX8EnKBtBOj/view?usp=drivesdk"; break;
+case 44: url = "https://drive.google.com/file/d/1KwX-uyqE2bXI70sRdMvTCm0Kp9ggTIOm/view?usp=drivesdk"; break;
+case 45: url = "https://drive.google.com/file/d/1Vau22mD1FP_cJhixHKgWUIcZI66C2-jy/view?usp=drivesdk"; break;
+case 46: url = "https://drive.google.com/file/d/13uozf5m3594IGUfNIDSL5WLrNfOrokLC/view?usp=drivesdk"; break;
+case 47: url = "https://drive.google.com/file/d/1TDdX7IUtQ_plaHVMiWwsSVuQoMsQf-k1/view?usp=drivesdk"; break;
+case 48: url = "https://drive.google.com/file/d/1pCzeHL-HRS7crbSSqPo14_zHbVsTpKo4/view?usp=drivesdk"; break;
+case 49: url = "https://drive.google.com/file/d/1ydgIs8woVD_9FIYvFC1EsJTzXj21kj2k/view?usp=drivesdk"; break;
+case 50: url = "https://drive.google.com/file/d/1IiR-lq2wT3DF-Telv6r8ywbn-Efr1y9m/view?usp=drivesdk"; break;
+case 51: url = "https://drive.google.com/file/d/1yED_AppLuJ0m_ulZzL-MLxQXFtTOno3o/view?usp=drivesdk"; break;
+case 52: url = "https://drive.google.com/file/d/11JpUAyDrwdKYtM26jgSEHTBii-To7uij/view?usp=drivesdk"; break;
+case 53: url = "https://drive.google.com/file/d/1tC__9jC3Oo45kRRSBvnw6ILRNq3ar2bS/view?usp=drivesdk"; break;
+case 54: url = "https://drive.google.com/file/d/1tymzZxQhO1rmgPMBmerSvO4t4j5Xjcrn/view?usp=drivesdk"; break;
+case 55: url = "https://drive.google.com/file/d/1oC6GT4UkaCTF0U2m_iccwTXhmUEVoMCA/view?usp=drivesdk"; break;
+case 56: url = "https://drive.google.com/file/d/1O6dyETqfrIefLnMReVRc04Jv9fEaj55N/view?usp=drivesdk"; break;
+case 57: url = "https://drive.google.com/file/d/1zNGJ2ORoHjceySXIR_Qc-TG0DaTcaCah/view?usp=drivesdk"; break;
+case 58: url = "https://drive.google.com/file/d/1F0EuaWKABhZUopd_4ZI-KqN0hrSfxeXI/view?usp=drivesdk"; break;
+case 59: url = "https://drive.google.com/file/d/1HtRnWm_EnMCCoJ33CgKGPMXkasw2hheg/view?usp=drivesdk"; break;
+case 60: url = "https://drive.google.com/file/d/1E3mEhIyknI4dCGhNl1D79hXw7O_G08Td/view?usp=drivesdk"; break;
+case 61: url = "https://drive.google.com/file/d/19hyAxBuAcEw6FTWQbbHgakB8jYHPIlZW/view?usp=drivesdk"; break;
+case 62: url = "https://drive.google.com/file/d/15Xdx6JOoEO0lZ3Z7GOeaZQECZrXZau6R/view?usp=drivesdk"; break;
+case 63: url = "https://drive.google.com/file/d/1s81M13iJ67S3viELpgT1oJ-nozO0hP1v/view?usp=drivesdk"; break;
+case 64: url = "https://drive.google.com/file/d/1Q9t_8ZIfhAfgNWHsVj4P3ezWMilFIi1b/view?usp=drivesdk"; break;
+case 65: url = "https://drive.google.com/file/d/16YcvqQTEt7CEdbpdsyGJwGOxvKnRrlq1/view?usp=drivesdk"; break;
+case 66: url = "https://drive.google.com/file/d/1BaiQLSlErSS6cvE1rkre8-eA4ufKskO6/view?usp=drivesdk"; break;
+case 67: url = "https://drive.google.com/file/d/1c7zmavsLEbfvMPG3dslWMUAXWMqPlOsP/view?usp=drivesdk"; break;
+case 68: url = "https://drive.google.com/file/d/1B-Sh4yuwZ4NBe2qkOMfoAlMPHsyNnh5R/view?usp=drivesdk"; break;
+case 69: url = "https://drive.google.com/file/d/1Urx86O4TVX_AUulZcoLdUYiOa0RqnL8l/view?usp=drivesdk"; break;
+case 70: url = "https://drive.google.com/file/d/1bv9s0ggLME_bZiVgLTO6-sk9tbREDipx/view?usp=drivesdk"; break;
+case 71: url = "https://drive.google.com/file/d/18nLNM_yGoZUJFQbisAZJ4-9xa0H9b6QC/view?usp=drivesdk"; break;
+case 72: url = "https://drive.google.com/file/d/1xbfHaJohB44T86Asswf-_hyvshLHsZf_/view?usp=drivesdk"; break;
+case 73: url = "https://drive.google.com/file/d/1sjUN5wfo88TnYuknDamnCeTCtBrx2J4U/view?usp=drivesdk"; break;
+case 74: url = "https://drive.google.com/file/d/1VQYDYHnIIbFhu-Kuqsu8N3Jdp5ppqkDo/view?usp=drivesdk"; break;
+case 75: url = "https://drive.google.com/file/d/1G3Fp9bc7RLejWDk0DMzhPPJidgM8VeWB/view?usp=drivesdk"; break;
+case 76: url = "https://drive.google.com/file/d/1l8HC5CuELABYYSKZYogzqj7Uyt-oyU9j/view?usp=drivesdk"; break;
+case 77: url = "https://drive.google.com/file/d/1F6fRr9z9TKypi4a6LLNKRl93yOhUN5wC/view?usp=drivesdk"; break;
+case 78: url = "https://drive.google.com/file/d/1SfsxgqGKLW4UydP2DpljAmFqYzooU0FI/view?usp=drivesdk"; break;
+case 79: url = "https://drive.google.com/file/d/1EAzlFvUPOCIFZWsflsQCHhlMf0sBpG-i/view?usp=drivesdk"; break;
+case 80: url = "https://drive.google.com/file/d/1x5Kr--K3FIq4lpRqY7N6vboIXXHELA0W/view?usp=drivesdk"; break;
+case 81: url = "https://drive.google.com/file/d/1GRoQVTCFm3xb9-RLVxH7lpfEzNvR47JN/view?usp=drivesdk"; break;
+case 82: url = "https://drive.google.com/file/d/1hnVpZFNTCT4-qyxu8Ao_CKTrhul-PsAc/view?usp=drivesdk"; break;
+case 83: url = "https://drive.google.com/file/d/10EXIhdOoyDJ7ShgqLUyaZw5sExm7hLpu/view?usp=drivesdk"; break;
+case 84: url = "https://drive.google.com/file/d/1Un2UfnP7x7Lg1UO4X8ueAtPne3NITZUo/view?usp=drivesdk"; break;
+case 85: url = "https://drive.google.com/file/d/1tS8dVV8D1XPO5-Tw_PF-iG9hft9SX95L/view?usp=drivesdk"; break;
+case 86: url = "https://drive.google.com/file/d/1Zw96ZPqLuV3RPyF985muqpf_Rz5WuSix/view?usp=drivesdk"; break;
+case 87: url = "https://drive.google.com/file/d/1VcgcJWwqeKdGJNSeC1OFhNyA7dKsBqBB/view?usp=drivesdk"; break;
+case 88: url = "https://drive.google.com/file/d/1LYRrhV0A_SWTHo34jt0Mr2IgDdxN1o-s/view?usp=drivesdk"; break;
+case 89: url = "https://drive.google.com/file/d/1rty1PgUwLcHrPB0Kf1kXQC6z6PnoSlLI/view?usp=drivesdk"; break;
+case 90: url = "https://drive.google.com/file/d/1tgb-tmXwNxLwIYJL_aDo8d2MTMdakFcd/view?usp=drivesdk"; break;
+case 91: url = "https://drive.google.com/file/d/1c_-j7FW1TI-RFHxLQHQzjr-W1lrRZdh_/view?usp=drivesdk"; break;
+case 92: url = "https://drive.google.com/file/d/1rDq9iFMyGEv-XqQCwFqUIRHmfnrZ4-H8/view?usp=drivesdk"; break;
+case 93: url = "https://drive.google.com/file/d/1nXLKICVtBZDfczXhOYIKvzsbJXDC3WH4/view?usp=drivesdk"; break;
+case 94: url = "https://drive.google.com/file/d/1e6NA_3vc4aDSPbvPJh_7rW9Lg2HQQ0bj/view?usp=drivesdk"; break;
+case 95: url = "https://drive.google.com/file/d/1xaIMDUKn60C9x7tXjABGTep3rsQymj8w/view?usp=drivesdk"; break;
+case 96: url = "https://drive.google.com/file/d/1JZfzOQ9rsNssNBzkWCWRjgzyxOKfkqlD/view?usp=drivesdk"; break;
+case 97: url = "https://drive.google.com/file/d/1b4drJ13gb-HleZMz9IKbGstHici3rScd/view?usp=drivesdk"; break;
+case 98: url = "https://drive.google.com/file/d/14SMxo-2GLvrAY7FU1uNYKQzDk4yIoDhd/view?usp=drivesdk"; break;
+case 99: url = "https://drive.google.com/file/d/17u4Tzw5oTwrRjwxIFG5jxwtVE7SHgnJ8/view?usp=drivesdk"; break;
+case 100: url = "https://drive.google.com/file/d/17eUc2P0dy8VkmaPReS0xOpfRrQ8pqhSp/view?usp=drivesdk"; break;
+case 101: url = "https://drive.google.com/file/d/1-R-EVm-t0o1PcMhSs4qKWfqdTsvZhNH9/view?usp=drivesdk"; break;
+case 102: url = "https://drive.google.com/file/d/1kWXTX_7csJgByEMtMXQVp8G6bvFMzQTO/view?usp=drivesdk"; break;
+case 103: url = "https://drive.google.com/file/d/1KhdaK4HAIqHPBGBMbmp-3EEWouuYGPtZ/view?usp=drivesdk"; break;
+case 104: url = "https://drive.google.com/file/d/1hSDSZYU5eqdIqJJ6DpIvUVuHo1FdeJ50/view?usp=drivesdk"; break;
+case 105: url = "https://drive.google.com/file/d/1xFNvMs3JcvAjYo7EX3yfNebQbNAK8e2j/view?usp=drivesdk"; break;
+case 106: url = "https://drive.google.com/file/d/104g7By2Ds_8swkTf3oeDg--ZyXs8DsdG/view?usp=drivesdk"; break;
+case 107: url = "https://drive.google.com/file/d/1_OG4soacDEKDWJNJc4V3TN0V1Fbi0GJG/view?usp=drivesdk"; break;
+case 108: url = "https://drive.google.com/file/d/1DvaKFxZ_xGa9ODatc3A3aoOWnNXiJXdm/view?usp=drivesdk"; break;
+case 109: url = "https://drive.google.com/file/d/1q8tgkWyUpkrNGvao-fTn4iyX-9W6He7j/view?usp=drivesdk"; break;
+case 110: url = "https://drive.google.com/file/d/1K05eBITZsfv_xw9V7NYu4QYpHgT1dBkX/view?usp=drivesdk"; break;
+case 111: url = "https://drive.google.com/file/d/1fGoxfsQn_qzVQMopA9wmSdXqAjML13CS/view?usp=drivesdk"; break;
+case 112: url = "https://drive.google.com/file/d/17o-zECKEKVFk09Ymb8APDllx5Fru855U/view?usp=drivesdk"; break;
+case 113: url = "https://drive.google.com/file/d/1BHrOFq9W7K_KgnFIg5kPF1ynlKgYH1Zx/view?usp=drivesdk"; break;
+case 114: url = "https://drive.google.com/file/d/1dtFnqc-iY333VmANlsZiZ9Q433jj8ZMb/view?usp=drivesdk"; break;
+case 115: url = "https://drive.google.com/file/d/1rvSJFfMVULluVrUl70MXV85HsHY6nKiU/view?usp=drivesdk"; break;
+case 116: url = "https://drive.google.com/file/d/1a0m2EBR0GAO8z00T-CKafAHPichUpEga/view?usp=drivesdk"; break;
+case 117: url = "https://drive.google.com/file/d/1qrJisdCv5QDLzzEr0Yul9LJ8tex2VQOp/view?usp=drivesdk"; break;
+case 118: url = "https://drive.google.com/file/d/1RznI9JhWU32JhYZNob3Ymboz9hCAhbbX/view?usp=drivesdk"; break;
+case 119: url = "https://drive.google.com/file/d/1Pc8QT9mLfvS-NIDbzjbHVhpXfVRZ736y/view?usp=drivesdk"; break;
+case 120: url = "https://drive.google.com/file/d/1KnTfh8KeXr7joH6z5_s5yt1bNR0sDQn_/view?usp=drivesdk"; break;
+case 121: url = "https://drive.google.com/file/d/1Yfjq00CvP7VbtxV_jPrn-mj8B_8a52I9/view?usp=drivesdk"; break;
+            
             default:
                 url = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
         }
