@@ -14,7 +14,7 @@
 </form>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby2QHAbN2T57Vs8HPqOHqKA-dlru_AdcT2-Wg9JJVUhrRlpHoI/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyR_f-okf22dDmBL6L9krbZYufyBwtjRiQYmJ3Q/exec'
     const form = document.forms['submit-to-google-sheet']
 
     function correspondenceTable(cardSetNo) {
