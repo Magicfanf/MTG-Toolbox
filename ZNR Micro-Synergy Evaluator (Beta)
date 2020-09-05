@@ -16,6 +16,136 @@
     const scriptURL = 'https://script.google.com/macros/s/AKfycby2QHAbN2T57Vs8HPqOHqKA-dlru_AdcT2-Wg9JJVUhrRlpHoI/exec'
     const form = document.forms['submit-to-google-sheet']
 
+    function correspondenceTable(cardSetNo) {
+        var cardSetNumber;
+        switch (cardSetNo) {
+case 1: cardSetNumber = 2; break;
+case 2: cardSetNumber = 3; break;
+case 3: cardSetNumber = 5; break;
+case 4: cardSetNumber = 8; break;
+case 5: cardSetNumber = 11; break;
+case 6: cardSetNumber = 12; break;
+case 7: cardSetNumber = 12; break;
+case 8: cardSetNumber = 14; break;
+case 9: cardSetNumber = 18; break;
+case 10: cardSetNumber = 20; break;
+case 11: cardSetNumber = 21; break;
+case 12: cardSetNumber = 23; break;
+case 13: cardSetNumber = 26; break;
+case 14: cardSetNumber = 26; break;
+case 15: cardSetNumber = 27; break;
+case 16: cardSetNumber = 32; break;
+case 17: cardSetNumber = 34; break;
+case 18: cardSetNumber = 36; break;
+case 19: cardSetNumber = 37; break;
+case 20: cardSetNumber = 37; break;
+case 21: cardSetNumber = 38; break;
+case 22: cardSetNumber = 39; break;
+case 23: cardSetNumber = 40; break;
+case 24: cardSetNumber = 40; break;
+case 25: cardSetNumber = 44; break;
+case 26: cardSetNumber = 45; break;
+case 27: cardSetNumber = 47; break;
+case 28: cardSetNumber = 48; break;
+case 29: cardSetNumber = 51; break;
+case 30: cardSetNumber = 53; break;
+case 31: cardSetNumber = 54; break;
+case 32: cardSetNumber = 57; break;
+case 33: cardSetNumber = 62; break;
+case 34: cardSetNumber = 63; break;
+case 35: cardSetNumber = 66; break;
+case 36: cardSetNumber = 70; break;
+case 37: cardSetNumber = 75; break;
+case 38: cardSetNumber = 77; break;
+case 39: cardSetNumber = 78; break;
+case 40: cardSetNumber = 79; break;
+case 41: cardSetNumber = 83; break;
+case 42: cardSetNumber = 86; break;
+case 43: cardSetNumber = 86; break;
+case 44: cardSetNumber = 87; break;
+case 45: cardSetNumber = 88; break;
+case 46: cardSetNumber = 89; break;
+case 47: cardSetNumber = 94; break;
+case 48: cardSetNumber = 95; break;
+case 49: cardSetNumber = 96; break;
+case 50: cardSetNumber = 97; break;
+case 51: cardSetNumber = 98; break;
+case 52: cardSetNumber = 101; break;
+case 53: cardSetNumber = 102; break;
+case 54: cardSetNumber = 108; break;
+case 55: cardSetNumber = 113; break;
+case 56: cardSetNumber = 115; break;
+case 57: cardSetNumber = 120; break;
+case 58: cardSetNumber = 120; break;
+case 59: cardSetNumber = 127; break;
+case 60: cardSetNumber = 129; break;
+case 61: cardSetNumber = 130; break;
+case 62: cardSetNumber = 132; break;
+case 63: cardSetNumber = 132; break;
+case 64: cardSetNumber = 133; break;
+case 65: cardSetNumber = 134; break;
+case 66: cardSetNumber = 134; break;
+case 67: cardSetNumber = 135; break;
+case 68: cardSetNumber = 137; break;
+case 69: cardSetNumber = 140; break;
+case 70: cardSetNumber = 141; break;
+case 71: cardSetNumber = 142; break;
+case 72: cardSetNumber = 143; break;
+case 73: cardSetNumber = 153; break;
+case 74: cardSetNumber = 156; break;
+case 75: cardSetNumber = 163; break;
+case 76: cardSetNumber = 164; break;
+case 77: cardSetNumber = 165; break;
+case 78: cardSetNumber = 165; break;
+case 79: cardSetNumber = 166; break;
+case 80: cardSetNumber = 166; break;
+case 81: cardSetNumber = 167; break;
+case 82: cardSetNumber = 168; break;
+case 83: cardSetNumber = 174; break;
+case 84: cardSetNumber = 174; break;
+case 85: cardSetNumber = 175; break;
+case 86: cardSetNumber = 177; break;
+case 87: cardSetNumber = 179; break;
+case 88: cardSetNumber = 180; break;
+case 89: cardSetNumber = 180; break;
+case 90: cardSetNumber = 184; break;
+case 91: cardSetNumber = 185; break;
+case 92: cardSetNumber = 186; break;
+case 93: cardSetNumber = 188; break;
+case 94: cardSetNumber = 192; break;
+case 95: cardSetNumber = 192; break;
+case 96: cardSetNumber = 193; break;
+case 97: cardSetNumber = 194; break;
+case 98: cardSetNumber = 201; break;
+case 99: cardSetNumber = 207; break;
+case 100: cardSetNumber = 208; break;
+case 101: cardSetNumber = 209; break;
+case 102: cardSetNumber = 210; break;
+case 103: cardSetNumber = 211; break;
+case 104: cardSetNumber = 211; break;
+case 105: cardSetNumber = 212; break;
+case 106: cardSetNumber = 217; break;
+case 107: cardSetNumber = 222; break;
+case 108: cardSetNumber = 226; break;
+case 109: cardSetNumber = 229; break;
+case 110: cardSetNumber = 230; break;
+case 111: cardSetNumber = 231; break;
+case 112: cardSetNumber = 232; break;
+case 113: cardSetNumber = 233; break;
+case 114: cardSetNumber = 235; break;
+case 115: cardSetNumber = 237; break;
+case 116: cardSetNumber = 238; break;
+case 117: cardSetNumber = 240; break;
+case 118: cardSetNumber = 241; break;
+case 119: cardSetNumber = 242; break;
+case 120: cardSetNumber = 251; break;
+case 121: cardSetNumber = 262; break;
+            default:
+                cardSetNumber = 2;
+        }
+        return cardSetNumber;
+    }
+
     function dynamicUrl(cardSetNo) {
         var url
         switch (cardSetNo) {
@@ -155,14 +285,14 @@ case 121: url = "https://drive.google.com/file/d/1Yfjq00CvP7VbtxV_jPrn-mj8B_8a52
     var img1 = document.createElement("img");
     img1.src = dynamicUrl(card1SetNo);
     img1.width = 150;
-    form.elements['form-SetNo1'].value = card1SetNo;
+    form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo);
     document.body.appendChild(img1);
 
     var card2SetNo = Math.floor(Math.random() * 259) + 1;
     var img2 = document.createElement("img");
     img2.src = dynamicUrl(card2SetNo);
     img2.width = 150;
-    form.elements['form-SetNo2'].value = card2SetNo;
+    form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo);
     document.body.appendChild(img2);
 
     form.addEventListener('submit', e => {
