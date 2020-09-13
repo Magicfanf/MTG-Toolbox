@@ -1,5 +1,5 @@
 <form name="submit-to-google-sheet">
-  <br> <label style="font-family:Arial;font-size:13px">How is the 1st card improving the 2nd one, ignoring everything else in the set? (Please make complete abstraction of the archetypes! Help can be found at Evaluator Guide link above.)</label> <br> <br>
+  <br> <label style="font-family:Arial;font-size:13px">How is the 1st card improving the 2nd one, ignoring everything else in the set? (Please make complete abstraction of the archetypes! Help can be found in the Evaluator Guide in the top menu.)</label> <br> <br>
   <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(-1);">They totally clash</button> <br>
   <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(-0.1);">They slightly clash</button> <br>
   <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(0);">Not at all</button> <br>
