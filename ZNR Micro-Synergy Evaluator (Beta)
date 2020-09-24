@@ -284,7 +284,7 @@
           case 73: url = "https://docs.google.com/uc?export=view&id=1djN2s2flokB4oLGlC36IRsBAhyyXRIc2"; break;
           case 74: url = "https://docs.google.com/uc?export=view&id=1mDA_H4gAzeFyD9MROydjkV6MC6ITXk6C"; break;
           case 75: url = "https://docs.google.com/uc?export=view&id=1wuChL0BZg7cKVSkSJFcrVKLv7gFjJIZJ"; break;
-          case 76: url = "https://drive.google.com/file/d/1uK_fwvtNzsj9cIbp1Fb8OpWwFTuLq__D"; break;
+          case 76: url = "https://docs.google.com/uc?export=view&id=1uK_fwvtNzsj9cIbp1Fb8OpWwFTuLq__D"; break;
           case 77: url = "https://docs.google.com/uc?export=view&id=1uwwZouwpwVr9IP4nZ4NTrKENrARjEMlk"; break;
           case 78: url = "https://docs.google.com/uc?export=view&id=1L-XQxq4sB4t3paJT1uJCUIRR_N-7UWL_"; break;
           case 79: url = "https://docs.google.com/uc?export=view&id=1ZmEGNrMIGxfxqmtv8db3BiqDlTSah1ja"; break;
