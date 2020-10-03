@@ -13,8 +13,12 @@
   <input name="Rating" id="form-rating" type="text" value="0" readonly hidden>
 </form>
 
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwLLYjyGGpjtMZQR0Gm_zzE6xAEmNuNrfaceC43/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxAxUYLTkMvuQpStpb697sothny6uQJaVFUUsa02MmIruLtFkI/exec'
     const form = document.forms['submit-to-google-sheet']
 
     function correspondenceTable(cardSetNo) {
