@@ -483,7 +483,7 @@
         form.elements['form-rating'].value = ratingResponse;
     }
 
-    var availableCardsNumber = 256;
+    var availableCardsNumber = 255;
     var card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
     var img1 = document.createElement("img");
     img1.src = dynamicUrl(card1SetNo);
