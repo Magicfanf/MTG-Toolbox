@@ -6,7 +6,7 @@
       const rankedTable = res.data;
       var htmlTable = document.createElement('div');
       var tableRow = document.createElement('div');
-      for(var i=0; i<99; i++) {
+      for(var i=0; i<Object.keys(res.data).length; i++) {
          var tableHeader = document.createElement('p');
          tableRow.appendChild(tableHeader);
          htmlTable.appendChild(tableRow);
@@ -21,6 +21,6 @@
          tableRow.appendChild(img2);
          htmlTable.appendChild(tableRow);
       }
-      document.appendChild(htmlTable);
+      document.body.appendChild(htmlTable);
     });
 </script>
