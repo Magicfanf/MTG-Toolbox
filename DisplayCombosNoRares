@@ -1,8 +1,26 @@
 <script>
-   
-    var img1 = document.createElement("img");
-    img1.src = dynamicUrl("https://docs.google.com/uc?export=view&id=12ELcHHiYVyH5voWX-GJJ_tvTMLylQviQ");
-    img1.width = 160;
-    document.body.appendChild(img1);
-
+  let url = "https://script.google.com/macros/s/AKfycbxAxUYLTkMvuQpStpb697sothny6uQJaVFUUsa02MmIruLtFkI/exec";
+  fetch(url)
+    .then((res) => res.json())
+    .then((res) => {
+      const rankedTable = res.data;
+      var htmlTable = document.createElement('div');
+      var tableRow = document.createElement('div');
+      for(var i=0; i<99; i++) {
+         var tableHeader = document.createElement('p');
+         tableRow.appendChild(tableHeader);
+         htmlTable.appendChild(tableRow);
+         var tableRow = document.createElement('div');
+         var img1 = document.createElement("img");
+         img1.src = rankedTable[i][2];
+         img1.width = 160;
+         tableRow.appendChild(img1);
+         var img2 = document.createElement("img");
+         img2.src = rankedTable[i][3];
+         img2.width = 160;
+         tableRow.appendChild(img2);
+         htmlTable.appendChild(tableRow);
+      }
+      document.appendChild(htmlTable);
+    });
 </script>
