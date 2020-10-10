@@ -12,7 +12,7 @@
          htmlTable.appendChild(tableRow);
          var tableRow = document.createElement('div');
          var img1 = document.createElement("img");
-         img1.src = rankedTable[i][2];
+         img1.src = rankedTable[i][1];
          img1.width = 160;
          tableRow.appendChild(img1);
          htmlTable.appendChild(tableRow);
