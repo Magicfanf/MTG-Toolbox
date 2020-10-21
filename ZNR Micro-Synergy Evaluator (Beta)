@@ -1,15 +1,15 @@
 <form name="submit-to-google-sheet">
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(-1);">They totally clash</button> <br>
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(-0.1);">They slightly clash</button> <br>
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(0);">Not at all</button> <br>
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(0.1);">By less than half a grade</button> <br>
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(0.5);">By half a grade</button> <br>
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(1);">By a full grade</button> <br>
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(2);">By 2 full grades or more</button> <br>
-  <button type="submit" style="height:40px;width:180px" onclick="setRatingResponse(7);">I'm not sure...</button> <br>
-  <input name="SetNo1" id="form-SetNo1" type="number" value="134" readonly hidden>
-  <input name="SetNo2" id="form-SetNo2" type="number" value="233" readonly hidden>
-  <input name="Rating" id="form-rating" type="text" value="0" readonly hidden>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(-1);">They totally clash</button>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(-0.1);">They slightly clash</button><br>
+<button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(0);">Not at all</button><br>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(0.1);">By less than half a grade</button>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(0.5);">By half a grade</button><br>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(1);">By a full grade</button>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(2);">By 2 full grades or more</button><br>
+<button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(7);">I'm not sure...</button>
+<input name="SetNo1" id="form-SetNo1" type="number" value="1" readonly hidden>
+<input name="SetNo2" id="form-SetNo2" type="number" value="2" readonly hidden>
+<input name="Rating" id="form-rating" type="text" value="0" readonly hidden>
 </form>
 <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
 <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
