@@ -1,0 +1,76 @@
+var logSheetName = 'Collected_input'
+var ratingSheetName = 'Ratings'
+var scriptProp = PropertiesService.getScriptProperties()
+
+function intialSetup () {
+  var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+  scriptProp.setProperty('key', activeSpreadsheet.getId())
+}
+
+function doPost (e) {
+  var lock = LockService.getScriptLock()
+  lock.tryLock(10000)
+  var setCardsNumber = 265
+
+  try {
+    var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'))
+    var sheet = doc.getSheetByName(logSheetName)
+    var ratingSheet = doc.getSheetByName(ratingSheetName)
+
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+    var nextRow = sheet.getLastRow() + 1
+
+    var newRow = headers.map(function(header) {
+      return header === 'timestamp' ? new Date() : e.parameter[header]
+    })
+
+    sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow])
+    
+    if (newRow[3] != 7) {
+      var posRow = newRow[1]*1 + (newRow[2] - 1)*setCardsNumber + 1
+      var posCol = 7
+      while (!ratingSheet.getRange(posRow, posCol).isBlank()) { posCol = posCol + 1; }
+      ratingSheet.getRange(posRow, posCol).setValue(newRow[3])
+    }
+    
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'success', 'row': nextRow }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  catch (e) {
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'error', 'error': e }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  finally {
+    lock.releaseLock()
+  }
+}
+
+function doGet(e) {
+  
+  var spreadsheet = SpreadsheetApp.openById('18QPbrDh9k38-rl9gi0fUuHBxccnvPyN_zYksKwVzyRM');
+
+  switch (e.parameter.page) {
+    case "ranked_all":
+      var worksheet = spreadsheet.getSheetByName('Ranked all');
+      var output = JSON.stringify({ data: worksheet.getDataRange().getValues() });
+      break;
+    case "ranked_CU":
+      var worksheet = spreadsheet.getSheetByName('Ranked C/U');
+      var output = JSON.stringify({ data: worksheet.getDataRange().getValues() });
+      break;
+    case "supporters":
+      var worksheet = spreadsheet.getSheetByName('Top Supporters');
+      var output = JSON.stringify({ data: worksheet.getDataRange().getValues() });
+      break;
+    default:     
+      var worksheet = spreadsheet.getSheetByName('Ranked C/U');
+      var output = JSON.stringify({ data: worksheet.getDataRange().getValues() });
+      break;
+  }
+  
+  return ContentService.createTextOutput(output);
+}
