@@ -7,14 +7,14 @@ and for Tanaike from stackoverflow.com who was so patient with me on https://sta
 
 Home page
 make 8 buttons available to the user to rate the cards
-they totally clash = -1
-they slightly clash = -0.1
-Not at all = 0
-By less than half a grade = 0.1
-By half a grade = 0.5
-By a full grade = 1
-By 2 full grades or more = 2
-I'm not sure... = 7
+- they totally clash = -1
+- they slightly clash = -0.1
+- Not at all = 0
+- By less than half a grade = 0.1
+- By half a grade = 0.5
+- By a full grade = 1
+- By 2 full grades or more = 2
+- I'm not sure... = 7
 
 2 numbers from 1 to 265 are selected randomly. they are the set number of the cards to be displayed.
 the images of the cards whose set numbers are the randomised numbers above are displayed below the buttons. the URL of the cards are coming from a Goolge Drive, where the image files are shared openly.
