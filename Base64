@@ -1,0 +1,29 @@
+<form name="submit-to-google-sheet">
+  <input name="SetNo1" id="form-SetNo1" type="number" value="0" readonly>
+  <img name="img1">
+</form>
+
+<script>
+const form = document.forms['submit-to-google-sheet']
+img1.src = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
+img1.width = 160;
+img1.id = "image1";
+form.elements['form-SetNo1'].value = 1;
+var base64 = getBase64Image(document.getElementById("image1"));
+form.elements['form-SetNo1'].value = 4;
+document.body.appendChild(base64);
+form.elements['form-SetNo1'].value = 5;
+
+function getBase64Image(img2) {
+  var canvas = document.createElement("canvas");
+  canvas.width = img2.width;
+  canvas.height = img2.height;
+  var ctx = canvas.getContext("2d");
+  form.elements['form-SetNo1'].value = 2;
+  ctx.drawImage(img2, 0, 0);
+  var dataURL = canvas.toDataURL("image/jpeg");
+ form.elements['form-SetNo1'].value = 3;
+  return dataURL.replace(/^data:image\/(png|jpg);base64,/,"");
+}
+
+</script>
