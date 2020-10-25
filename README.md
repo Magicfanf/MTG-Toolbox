@@ -6,6 +6,7 @@ thanks to Jamie Wilson for his article https://github.com/jamiewilson/form-to-go
 and for Tanaike from stackoverflow.com who was so patient with me on https://stackoverflow.com/questions/64199227/parsing-a-stringified-json-coming-from-a-google-sheet-web-app
 
 Home page
+
 make 8 buttons available to the user to rate the cards
 - they totally clash = -1
 - they slightly clash = -0.1
