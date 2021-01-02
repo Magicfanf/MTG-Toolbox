@@ -84,11 +84,11 @@
 
         card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1
         img1.src = dynamicUrl(card1SetNo)
-        form.elements['form-SetNo1'].value = card1SetNo //correspondenceTable(card1SetNo)
+        form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo) //card1SetNo
 
         card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1
         img2.src = dynamicUrl(card2SetNo)
-        form.elements['form-SetNo2'].value = card2SetNo //correspondenceTable(card2SetNo)
+        form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo) //card2SetNo
 
     })
 </script>
