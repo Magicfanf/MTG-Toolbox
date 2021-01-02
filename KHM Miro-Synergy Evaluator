@@ -1,0 +1,94 @@
+<form name="submit-to-google-sheet">
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(-1);">They totally clash</button>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(-0.1);">They slightly clash</button><br>
+<button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(0);">Not at all</button><br>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(0.1);">By less than half a grade</button>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(0.5);">By half a grade</button><br>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(1);">By a full grade</button>
+<button type="submit" style="height:40px;width:163px" onclick="setRatingResponse(2);">By 2 full grades or more</button><br>
+<button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(7);">I'm not sure...</button><br>
+<input name="SetNo1" id="form-SetNo1" type="number" value="1" readonly hidden>
+<input name="SetNo2" id="form-SetNo2" type="number" value="2" readonly hidden>
+<input name="Rating" id="form-rating" type="text" value="0" readonly hidden>
+<img id="img1" width=163 height=227>
+<img id="img2" width=163 height=227>
+</form>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyjUyNKfb-p3eDboVnkV9Zf66bZ5gija6vm8ryzvw/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    function correspondenceTable(cardSetNo) {
+        var cardSetNumber;
+        switch (cardSetNo) {
+          case 1: cardSetNumber = 15; break;
+          case 2: cardSetNumber = 142; break;
+          case 3: cardSetNumber = 188; break;
+          case 4: cardSetNumber = 197; break;
+          case 5: cardSetNumber = 218; break;
+          case 6: cardSetNumber = 228; break;
+          case 7: cardSetNumber = 229; break;
+          case 8: cardSetNumber = 241; break;
+          case 9: cardSetNumber = 251; break;
+          case 10: cardSetNumber = 252; break;
+          case 11: cardSetNumber = 254; break;
+          case 12: cardSetNumber = 260; break;
+          default: cardSetNumber = 15;
+        }
+        return cardSetNumber;
+    }
+
+    function dynamicUrl(cardSetNo) {
+        var url
+        switch (cardSetNo) {
+          case 1: url = "https://docs.google.com/uc?export=view&id=1TO_NBH3leiSj3_oWcNQvGZFM--967jdD"; break;
+          case 2: url = "https://docs.google.com/uc?export=view&id=1TwItEaGC6zfkb73eTiX7CtRGSNuNNTC1"; break;
+          case 3: url = "https://docs.google.com/uc?export=view&id=1-rkiu1ssixCj4i8mmmZ1Y0yFGcwXBKsA"; break;
+          case 4: url = "https://docs.google.com/uc?export=view&id=15UZ4aj6QrWSdJDt0rcg19Rg1Xahr5xZn"; break;
+          case 5: url = "https://docs.google.com/uc?export=view&id=1Uk9D09PB_-5rNUGwe0Erg_qJkg6OVLuV"; break;
+          case 6: url = "https://docs.google.com/uc?export=view&id=1eQBe-r_8gxoBITj1MB_0KP8iB5OIfAFk"; break;
+          case 7: url = "https://docs.google.com/uc?export=view&id=1Vu9O2yVCbATPLwtpKgoDwK-JzJXjHMX0"; break;
+          case 8: url = "https://docs.google.com/uc?export=view&id=1MssLHiVatB3gyh72wWsAsdeOdUBcADOZ"; break;
+          case 9: url = "https://docs.google.com/uc?export=view&id=1FPkZmPxlDwwddAyb49qN9aYGc7UC_yoi"; break;
+          case 10: url = "https://docs.google.com/uc?export=view&id=1aM2BiHOi9IMpBAHWrG4r1WpXqSW6KfyM"; break;
+          case 11: url = "https://docs.google.com/uc?export=view&id=1n6L6me0kpsVOcJvhFaSo7Ile4hNPPVcJ"; break;
+          case 12: url = "https://docs.google.com/uc?export=view&id=1dGpw-CGHe3bWGLj9GkTXAyyPd2hAmenX"; break;
+          default: url = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
+        }
+        return url;
+    }
+
+    function setRatingResponse(ratingResponse) {
+        form.elements['form-rating'].value = ratingResponse;
+    }
+
+    var availableCardsNumber = 12;
+    var card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
+    img1.src = dynamicUrl(card1SetNo);
+    form.elements['form-SetNo1'].value = card1SetNo //correspondenceTable(card1SetNo);
+
+    var card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
+    img2.src = dynamicUrl(card2SetNo);
+    form.elements['form-SetNo2'].value = card2SetNo //correspondenceTable(card2SetNo);
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+
+        card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1
+        img1.src = dynamicUrl(card1SetNo)
+        form.elements['form-SetNo1'].value = card1SetNo //correspondenceTable(card1SetNo)
+
+        card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1
+        img2.src = dynamicUrl(card2SetNo)
+        form.elements['form-SetNo2'].value = card2SetNo //correspondenceTable(card2SetNo)
+
+    })
+</script>
