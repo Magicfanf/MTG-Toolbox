@@ -3,6 +3,7 @@
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(.1);">small perk</button><br>
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(1);">decent benefit</button><br>
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(2);">game-changing advantage</button><br>
+<button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(3);">winning combo</button><br>
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(7);">I'm not sure...</button><br>
 <input name="SetNo1" id="form-SetNo1" type="number" value="1" readonly hidden>
 <input name="SetNo2" id="form-SetNo2" type="number" value="2" readonly hidden>
