@@ -1,6 +1,6 @@
 <form name="submit-to-google-sheet">
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(0);">no additional benefit</button><br>
-<button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(.1);">small perk</button><br>
+<button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(0.1);">small perk</button><br>
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(1);">decent benefit</button><br>
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(2);">game-changing advantage</button><br>
 <button type="submit" style="height:40px;width:330px" onclick="setRatingResponse(3);">winning combo</button><br>
