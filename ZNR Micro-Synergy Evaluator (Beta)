@@ -13,9 +13,7 @@
 <img id="img1" width=163 height=227>
 <img id="img2" width=163 height=227>
 </form>
-<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxAxUYLTkMvuQpStpb697sothny6uQJaVFUUsa02MmIruLtFkI/exec'
     const form = document.forms['submit-to-google-sheet']
