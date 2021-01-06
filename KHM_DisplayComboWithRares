@@ -20,7 +20,16 @@
          img2.width = 160;
          tableRow.appendChild(img2);
          htmlTable.appendChild(tableRow);
-      }
+         var tableHeader = document.createElement('p');
+         tableRow.appendChild(tableHeader);
+         htmlTable.appendChild(tableRow);
+         var tableRow = document.createElement('div');
+         var cellText = document.createTextNode(rankedTable[i][4]);
+         tableRow.style.fontFamily = "Verdana";
+         tableRow.style.fontSize = '12';
+         tableRow.appendChild(cellText);
+         htmlTable.appendChild(tableRow);
+         }
       document.body.appendChild(htmlTable);
     });
 </script>
