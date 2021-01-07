@@ -13,10 +13,10 @@
 </form>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqblErL0potfBeV65P6eJ-sVyBzBqkA-rXb7nDIF6JnMV-ShJO/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const img1 = document.getElementById('img1')
-    const img2 = document.getElementById('img2')
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqblErL0potfBeV65P6eJ-sVyBzBqkA-rXb7nDIF6JnMV-ShJO/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const img1 = document.getElementById('img1');
+    const img2 = document.getElementById('img2');
 
     function correspondenceTable(cardSetNo) {
         var cardSetNumber;
@@ -80,13 +80,13 @@
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
 
-        card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1
-        img1.src = dynamicUrl(card1SetNo)
-        form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo) //card1SetNo
+        card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
+        img1.src = dynamicUrl(card1SetNo);
+        form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo); //card1SetNo
 
-        card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1
-        img2.src = dynamicUrl(card2SetNo)
-        form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo) //card2SetNo
+        card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
+        img2.src = dynamicUrl(card2SetNo);
+        form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo); //card2SetNo
 
     })
 </script>
