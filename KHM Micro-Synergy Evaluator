@@ -9,9 +9,9 @@
 <input name="SetNo2" id="form-SetNo2" type="number" value="2" readonly hidden>
 <input name="Rating" id="form-rating" type="text" value="0" readonly hidden>
 <img id="img1" width=163 height=227>
-<img id="img1b" width=163 height=227 hidden>
+<img id="img1b" width=163 height=227>
 <img id="img2" width=163 height=227>
-<img id="img2b" width=163 height=227 hidden>
+<img id="img2b" width=163 height=227>
 </form>
 
 <script>
@@ -73,22 +73,8 @@
             case 46: cardSetNumber = 229; break;
             case 47: cardSetNumber = 232; break;
             case 48: cardSetNumber = 241; break;
-            case 49: cardSetNumber = 248; break;
-            case 50: cardSetNumber = 249; break;
-            case 51: cardSetNumber = 251; break;
-            case 52: cardSetNumber = 252; break;
-            case 53: cardSetNumber = 253; break;
-            case 54: cardSetNumber = 254; break;
-            case 55: cardSetNumber = 257; break;
-            case 56: cardSetNumber = 260; break;
-            case 57: cardSetNumber = 261; break;
-            case 58: cardSetNumber = 262; break;
-            case 59: cardSetNumber = 266; break;
-            case 60: cardSetNumber = 269; break;
-            case 61: cardSetNumber = 270; break;
-            case 62: cardSetNumber = 273; break;
-            case 63: cardSetNumber = 274; break;
-            case 64: cardSetNumber = 275; break;
+            case 49: cardSetNumber = 253; break;
+            case 50: cardSetNumber = 275; break;
           default: cardSetNumber = 15;
         }
         return cardSetNumber;
@@ -145,22 +131,8 @@
             case 46: url = "https://docs.google.com/uc?export=view&id=1N01oCE1HofBsc0kQAhGDtZYHUnl-f1Zr"; break;
             case 47: url = "https://docs.google.com/uc?export=view&id=1xvdJZvbpXmosAf9QqjHm5i6hnHJVW3TM"; break;
             case 48: url = "https://docs.google.com/uc?export=view&id=1aRDZoSOraWFl6e29ezTGlIH45aebrxMs"; break;
-            case 49: url = "https://docs.google.com/uc?export=view&id=1MqEXSLDFBXqoabFNOH_fFkdntuV06Vf_"; break;
-            case 50: url = "https://docs.google.com/uc?export=view&id=1Ztd70yUS4uwUrr2l1CbRfLzaR1I_jBGV"; break;
-            case 51: url = "https://docs.google.com/uc?export=view&id=1UJjSANr0j29xbtfFApoHKKz4Fjy9H5r-"; break;
-            case 52: url = "https://docs.google.com/uc?export=view&id=10f6gb4sfSRlkklgOHy_YsauU_kO8wg7n"; break;
-            case 53: url = "https://docs.google.com/uc?export=view&id=1b3SsrZM4BBvjsERlmI0Rbc02y1IsGueg"; break;
-            case 54: url = "https://docs.google.com/uc?export=view&id=1J009uFH8HmH70V-WvCpFkC0ka9qzFXXK"; break;
-            case 55: url = "https://docs.google.com/uc?export=view&id=1Hp-xiO3OrJRCvXoTCMx--Lvvey3T7vWH"; break;
-            case 56: url = "https://docs.google.com/uc?export=view&id=1bUrkQozu1D8cVUd-CNWX53kR3W_isC66"; break;
-            case 57: url = "https://docs.google.com/uc?export=view&id=10JzgyYTqmiyhC998Ns_KT5J7xe2Pa_Ji"; break;
-            case 58: url = "https://docs.google.com/uc?export=view&id=1yVq7xinTz2d4FrlWMTsjqLjCGEn6AqOm"; break;
-            case 59: url = "https://docs.google.com/uc?export=view&id=1sgvrkKvnsVbxH3XAZUPcFDhYr7dsAtws"; break;
-            case 60: url = "https://docs.google.com/uc?export=view&id=1IefaYYDW90Zd18tmHunGZRw3P8TAX9Lx"; break;
-            case 61: url = "https://docs.google.com/uc?export=view&id=1UIja4yPU5rv3NMSvSoXopaEdyyqQAsDg"; break;
-            case 62: url = "https://docs.google.com/uc?export=view&id=1d0bLQDMe_wjiHPp9pV2z7sn8he1lqBuf"; break;
-            case 63: url = "https://docs.google.com/uc?export=view&id=1quarrSr-HEpB6UgG7SeYdy8iYUAKGc4j"; break;
-            case 64: url = "https://docs.google.com/uc?export=view&id=1wD2WCL-FRVOSpn4Yf9FhFOLbHzM19Vml"; break;
+            case 49: url = "https://docs.google.com/uc?export=view&id=1b3SsrZM4BBvjsERlmI0Rbc02y1IsGueg"; break;
+            case 50: url = "https://docs.google.com/uc?export=view&id=1wD2WCL-FRVOSpn4Yf9FhFOLbHzM19Vml"; break;
           default: url = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
         }
         return url;
@@ -187,27 +159,27 @@
         form.elements['form-rating'].value = ratingResponse;
     }
 
-    var availableCardsNumber = 64;
+    var availableCardsNumber = 50;
     
     var card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
     img1.src = dynamicUrl(card1SetNo);
     form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo); //card1SetNo
     
-    if(dynamicUrlCardB(card1SetNo)=""){
+    if(dynamicUrlCardB(correspondenceTable(card1SetNo))==""){
         img1b.style = "display:none";
     } else {
-        img1b.src = dynamicUrlCardB(card1SetNo);
+        img1b.src = dynamicUrlCardB(correspondenceTable(card1SetNo));
         img1b.style = "display:inline";
-    }    
+    }
     
     var card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
     img2.src = dynamicUrl(card2SetNo);
     form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo); //card2SetNo
 
-    if(dynamicUrlCardB(card2SetNo)=""){
+    if(dynamicUrlCardB(correspondenceTable(card2SetNo))==""){
         img2b.style = "display:none";
     } else {
-        img2b.src = dynamicUrlCardB(card2SetNo);
+        img2b.src = dynamicUrlCardB(correspondenceTable(card2SetNo));
         img2b.style = "display:inline";
     }
     
@@ -224,23 +196,23 @@
         img1.src = dynamicUrl(card1SetNo);
         form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo); //card1SetNo
 
-        if(dynamicUrlCardB(card1SetNo)=""){
+        if(dynamicUrlCardB(correspondenceTable(card1SetNo))==""){
             img1b.style = "display:none";
         } else {
-            img1b.src = dynamicUrlCardB(card1SetNo);
+            img1b.src = dynamicUrlCardB(correspondenceTable(card1SetNo));
             img1b.style = "display:inline";
-        }   
+        }
         
         card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
         img2.src = dynamicUrl(card2SetNo);
         form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo); //card2SetNo
 
-        if(dynamicUrlCardB(card2SetNo)=""){
+        if(dynamicUrlCardB(correspondenceTable(card2SetNo))==""){
             img2b.style = "display:none";
         } else {
-            img2b.src = dynamicUrlCardB(card2SetNo);
+            img2b.src = dynamicUrlCardB(correspondenceTable(card2SetNo));
             img2b.style = "display:inline";
-        }   
+        }
     })
     
 </script>
