@@ -9,30 +9,72 @@
 <input name="SetNo2" id="form-SetNo2" type="number" value="2" readonly hidden>
 <input name="Rating" id="form-rating" type="text" value="0" readonly hidden>
 <img id="img1" width=163 height=227>
+<img id="img1b" width=163 height=227>
 <img id="img2" width=163 height=227>
+<img id="img2b" width=163 height=227>
 </form>
 
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyqblErL0potfBeV65P6eJ-sVyBzBqkA-rXb7nDIF6JnMV-ShJO/exec';
     const form = document.forms['submit-to-google-sheet'];
     const img1 = document.getElementById('img1');
+    const img1b = document.getElementById('img1b');
     const img2 = document.getElementById('img2');
+    const img2b = document.getElementById('img2b');
 
     function correspondenceTable(cardSetNo) {
         var cardSetNumber;
         switch (cardSetNo) {
-          case 1: cardSetNumber = 15; break;
-          case 2: cardSetNumber = 142; break;
-          case 3: cardSetNumber = 188; break;
-          case 4: cardSetNumber = 197; break;
-          case 5: cardSetNumber = 218; break;
-          case 6: cardSetNumber = 228; break;
-          case 7: cardSetNumber = 229; break;
-          case 8: cardSetNumber = 241; break;
-          case 9: cardSetNumber = 251; break;
-          case 10: cardSetNumber = 252; break;
-          case 11: cardSetNumber = 254; break;
-          case 12: cardSetNumber = 260; break;
+            case 1: cardSetNumber = 10; break;
+            case 2: cardSetNumber = 15; break;
+            case 3: cardSetNumber = 29; break;
+            case 4: cardSetNumber = 40; break;
+            case 5: cardSetNumber = 41; break;
+            case 6: cardSetNumber = 44; break;
+            case 7: cardSetNumber = 46; break;
+            case 8: cardSetNumber = 51; break;
+            case 9: cardSetNumber = 59; break;
+            case 10: cardSetNumber = 60; break;
+            case 11: cardSetNumber = 64; break;
+            case 12: cardSetNumber = 72; break;
+            case 13: cardSetNumber = 73; break;
+            case 14: cardSetNumber = 76; break;
+            case 15: cardSetNumber = 97; break;
+            case 16: cardSetNumber = 102; break;
+            case 17: cardSetNumber = 114; break;
+            case 18: cardSetNumber = 115; break;
+            case 19: cardSetNumber = 117; break;
+            case 20: cardSetNumber = 125; break;
+            case 21: cardSetNumber = 138; break;
+            case 22: cardSetNumber = 139; break;
+            case 23: cardSetNumber = 142; break;
+            case 24: cardSetNumber = 149; break;
+            case 25: cardSetNumber = 167; break;
+            case 26: cardSetNumber = 168; break;
+            case 27: cardSetNumber = 171; break;
+            case 28: cardSetNumber = 181; break;
+            case 29: cardSetNumber = 184; break;
+            case 30: cardSetNumber = 185; break;
+            case 31: cardSetNumber = 186; break;
+            case 32: cardSetNumber = 188; break;
+            case 33: cardSetNumber = 192; break;
+            case 34: cardSetNumber = 193; break;
+            case 35: cardSetNumber = 197; break;
+            case 36: cardSetNumber = 199; break;
+            case 37: cardSetNumber = 206; break;
+            case 38: cardSetNumber = 209; break;
+            case 39: cardSetNumber = 211; break;
+            case 40: cardSetNumber = 215; break;
+            case 41: cardSetNumber = 218; break;
+            case 42: cardSetNumber = 220; break;
+            case 43: cardSetNumber = 221; break;
+            case 44: cardSetNumber = 225; break;
+            case 45: cardSetNumber = 228; break;
+            case 46: cardSetNumber = 229; break;
+            case 47: cardSetNumber = 232; break;
+            case 48: cardSetNumber = 241; break;
+            case 49: cardSetNumber = 253; break;
+            case 50: cardSetNumber = 275; break;
           default: cardSetNumber = 15;
         }
         return cardSetNumber;
@@ -41,19 +83,74 @@
     function dynamicUrl(cardSetNo) {
         var url
         switch (cardSetNo) {
-          case 1: url = "https://docs.google.com/uc?export=view&id=1TO_NBH3leiSj3_oWcNQvGZFM--967jdD"; break;
-          case 2: url = "https://docs.google.com/uc?export=view&id=1TwItEaGC6zfkb73eTiX7CtRGSNuNNTC1"; break;
-          case 3: url = "https://docs.google.com/uc?export=view&id=1-rkiu1ssixCj4i8mmmZ1Y0yFGcwXBKsA"; break;
-          case 4: url = "https://docs.google.com/uc?export=view&id=15UZ4aj6QrWSdJDt0rcg19Rg1Xahr5xZn"; break;
-          case 5: url = "https://docs.google.com/uc?export=view&id=1Uk9D09PB_-5rNUGwe0Erg_qJkg6OVLuV"; break;
-          case 6: url = "https://docs.google.com/uc?export=view&id=1eQBe-r_8gxoBITj1MB_0KP8iB5OIfAFk"; break;
-          case 7: url = "https://docs.google.com/uc?export=view&id=1Vu9O2yVCbATPLwtpKgoDwK-JzJXjHMX0"; break;
-          case 8: url = "https://docs.google.com/uc?export=view&id=1MssLHiVatB3gyh72wWsAsdeOdUBcADOZ"; break;
-          case 9: url = "https://docs.google.com/uc?export=view&id=1FPkZmPxlDwwddAyb49qN9aYGc7UC_yoi"; break;
-          case 10: url = "https://docs.google.com/uc?export=view&id=1aM2BiHOi9IMpBAHWrG4r1WpXqSW6KfyM"; break;
-          case 11: url = "https://docs.google.com/uc?export=view&id=1n6L6me0kpsVOcJvhFaSo7Ile4hNPPVcJ"; break;
-          case 12: url = "https://docs.google.com/uc?export=view&id=1dGpw-CGHe3bWGLj9GkTXAyyPd2hAmenX"; break;
+            case 1: url = "https://docs.google.com/uc?export=view&id=1ZWDKctcYjDVLlsfUYFt7V-2U_Ege07ni"; break;
+            case 2: url = "https://docs.google.com/uc?export=view&id=1DlT1mCkC96PYGUePS5CpXPeE72Sx9oMQ"; break;
+            case 3: url = "https://docs.google.com/uc?export=view&id=18Fg6r6hv5KUJgrTTY_80SIgseXoKcnpJ"; break;
+            case 4: url = "https://docs.google.com/uc?export=view&id=1J0C0-0aGEWJw5taGh3hSl1H6S2F3TGGD"; break;
+            case 5: url = "https://docs.google.com/uc?export=view&id=1_LHkawrE1TVrVTCxzj9D2Bs0A7q6leRy"; break;
+            case 6: url = "https://docs.google.com/uc?export=view&id=1U9dj__ORA0yrOx9vKCtcXVCn7mjgD0wU"; break;
+            case 7: url = "https://docs.google.com/uc?export=view&id=13KY75nZ39oOoVXp_MghsZsyebJn2OooB"; break;
+            case 8: url = "https://docs.google.com/uc?export=view&id=1y4tIWSWaGRLZt1t23zDZbiH86HpKJnuf"; break;
+            case 9: url = "https://docs.google.com/uc?export=view&id=1vmhrsUiUYlwlPwzH-13BMKbE3vc9Q5KT"; break;
+            case 10: url = "https://docs.google.com/uc?export=view&id=1YocmVUMMJWB918P1jLdfP3yO8EYB8B4e"; break;
+            case 11: url = "https://docs.google.com/uc?export=view&id=1gJsOz-eoOlFuq7JLGC0X77pJPGihZ5CO"; break;
+            case 12: url = "https://docs.google.com/uc?export=view&id=1T6Ccb43j8pXJ71uNjS6TOjOweGLv3Nki"; break;
+            case 13: url = "https://docs.google.com/uc?export=view&id=1MmE9vnZ5kwUwCoAXrvgjrNtsjTo31CxZ"; break;
+            case 14: url = "https://docs.google.com/uc?export=view&id=1G6lQvPGyOC5MkLV0zlikdge1b0C3VyhX"; break;
+            case 15: url = "https://docs.google.com/uc?export=view&id=17Q-DVLyKYMKINEXiUA51rivNaGppfIZD"; break;
+            case 16: url = "https://docs.google.com/uc?export=view&id=1JCRJ3YLKKY98pj94_sEoItbesSIkpxsa"; break;
+            case 17: url = "https://docs.google.com/uc?export=view&id=1TzXPgKvzTkOlZY5fJgVQxiyjaosqhaHo"; break;
+            case 18: url = "https://docs.google.com/uc?export=view&id=1X82lXXaESv0kZ_XGOvofT7mU5Cq55VO3"; break;
+            case 19: url = "https://docs.google.com/uc?export=view&id=1M17ZH-LKF4yYBqGEiAfIsOcLNiyVYaYr"; break;
+            case 20: url = "https://docs.google.com/uc?export=view&id=14IOQ7SJ0N66warjRkQFtR_R_eUyD3yms"; break;
+            case 21: url = "https://docs.google.com/uc?export=view&id=1fk8keoV8KVSbf_lSN3dJTg7ci3PmlbgA"; break;
+            case 22: url = "https://docs.google.com/uc?export=view&id=10osscJsuh9x1WkyI9y9dDoBasxDBfK3k"; break;
+            case 23: url = "https://docs.google.com/uc?export=view&id=1n0eOoOF-y5XwIYZIwTbGqQbtOSoOAArS"; break;
+            case 24: url = "https://docs.google.com/uc?export=view&id=1lkitQfFfyhZgCT5EgWzBGORDFWHdh_4z"; break;
+            case 25: url = "https://docs.google.com/uc?export=view&id=1NRM3x_haxIkX9g0Kmn0p5Di8tcl-aETB"; break;
+            case 26: url = "https://docs.google.com/uc?export=view&id=1K9VKYKL1f2brs_g-A7h7vJwISVtqkuEa"; break;
+            case 27: url = "https://docs.google.com/uc?export=view&id=1jhbnBCFEVULzFqLcqc5q5dH8hdSK-lzS"; break;
+            case 28: url = "https://docs.google.com/uc?export=view&id=1-E5BAIit7lX5ual6-OY1jyEU8DlknbOg"; break;
+            case 29: url = "https://docs.google.com/uc?export=view&id=1eQEKux5uTXU0JAM_ZhOxzE4F7XGvypeP"; break;
+            case 30: url = "https://docs.google.com/uc?export=view&id=1_J12nE_Zg7rqxo0B7owoIE2Q9lsPX8cy"; break;
+            case 31: url = "https://docs.google.com/uc?export=view&id=1Oc8uh0JQoa5GKtgvAIWdFX48phQcKypy"; break;
+            case 32: url = "https://docs.google.com/uc?export=view&id=1LuoqaB8Yf7H3ljAs1KvMG7BTG7SzDuwq"; break;
+            case 33: url = "https://docs.google.com/uc?export=view&id=1KhAfRc6pk3gG5Bhh1l_HLjC3ocmi8dA9"; break;
+            case 34: url = "https://docs.google.com/uc?export=view&id=1oNyLBMWQVfsTvx-mvbGCHmXjHt72SOuV"; break;
+            case 35: url = "https://docs.google.com/uc?export=view&id=1a5QSk6BFZBECj8Xq2jxuj9Vmj-r1c7jw"; break;
+            case 36: url = "https://docs.google.com/uc?export=view&id=1KtN25hik0svo9ZofpgHDnbTMGyaxiCij"; break;
+            case 37: url = "https://docs.google.com/uc?export=view&id=1XuQSkeuU2nrnfRgkrAkKiPHSgxPP3_jB"; break;
+            case 38: url = "https://docs.google.com/uc?export=view&id=1w2_Wwc9srPKqoUqQlEXJKuU6IUrbH1Lt"; break;
+            case 39: url = "https://docs.google.com/uc?export=view&id=15va4djxxX2sf-snnOoAscvdk_54ji5MJ"; break;
+            case 40: url = "https://docs.google.com/uc?export=view&id=1eijjX2RPSqotejEXNiEbvAgx84am1xjs"; break;
+            case 41: url = "https://docs.google.com/uc?export=view&id=1qg3fOc6XNCKl0lCXWUR7pZ3WdYjRYG7C"; break;
+            case 42: url = "https://docs.google.com/uc?export=view&id=1HKLRcqImIOG7u2ik3qWM3M548gTHSUtN"; break;
+            case 43: url = "https://docs.google.com/uc?export=view&id=1Re47YXAs5BtkgWXtpkU28zGT9qr-fVrE"; break;
+            case 44: url = "https://docs.google.com/uc?export=view&id=1wk1lAzZSRRoY0aKogfNTMc7m1yGdgRLK"; break;
+            case 45: url = "https://docs.google.com/uc?export=view&id=1cPWQwwgnAgpvdOTuaNqp0sDCUu4qJEuj"; break;
+            case 46: url = "https://docs.google.com/uc?export=view&id=1N01oCE1HofBsc0kQAhGDtZYHUnl-f1Zr"; break;
+            case 47: url = "https://docs.google.com/uc?export=view&id=1xvdJZvbpXmosAf9QqjHm5i6hnHJVW3TM"; break;
+            case 48: url = "https://docs.google.com/uc?export=view&id=1aRDZoSOraWFl6e29ezTGlIH45aebrxMs"; break;
+            case 49: url = "https://docs.google.com/uc?export=view&id=1b3SsrZM4BBvjsERlmI0Rbc02y1IsGueg"; break;
+            case 50: url = "https://docs.google.com/uc?export=view&id=1wD2WCL-FRVOSpn4Yf9FhFOLbHzM19Vml"; break;
           default: url = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
+        }
+        return url;
+    }
+
+    function dynamicUrlCardB(cardSetNo) {
+        var url
+        switch (cardSetNo) {
+            case 15: url = "https://docs.google.com/uc?export=view&id=1va_D1Aj0gd3Vp9yCw8MSh5b_3rL5KhPp"; break;
+            case 40: url = "https://docs.google.com/uc?export=view&id=1tqj6w2TH72LcBEC9vL0ZMI_0XwBTpmMe"; break;
+            case 114: url = "https://docs.google.com/uc?export=view&id=1m_l2DnPTHbcQ7p_FL2u6GNOi5JLzJOBy"; break;
+            case 168: url = "https://docs.google.com/uc?export=view&id=1STLmKqLh1ZsrzHjdN-M4TxoKEi3DwsQO"; break;
+            case 181: url = "https://docs.google.com/uc?export=view&id=1lgS6azLsSq2gZb3qysOyUkYNIexN5-Ue"; break;
+            case 251: url = "https://docs.google.com/uc?export=view&id=1kyDW1zOJzKcrHcPhf44_oKDptbW2GSJd"; break;
+            case 252: url = "https://docs.google.com/uc?export=view&id=1z_geAuD45a1_3egJR4Zm5gf_6I3PbdZ2"; break;
+            case 254: url = "https://docs.google.com/uc?export=view&id=1qBac1VH631yujAJRoxi0nl2qEye90tfF"; break;
+            case 260: url = "https://docs.google.com/uc?export=view&id=1qFrQzdeTnpxaIQXDzL_S7y8Gtu4wZzhc"; break;
+          default: url = "";
         }
         return url;
     }
@@ -62,15 +159,30 @@
         form.elements['form-rating'].value = ratingResponse;
     }
 
-    var availableCardsNumber = 12;
+    var availableCardsNumber = 50;
+    
     var card1SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
     img1.src = dynamicUrl(card1SetNo);
     form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo); //card1SetNo
-
+    
+    if(dynamicUrlCardB(correspondenceTable(card1SetNo))==""){
+        img1b.style = "display:none";
+    } else {
+        img1b.src = dynamicUrlCardB(correspondenceTable(card1SetNo));
+        img1b.style = "display:inline";
+    }
+    
     var card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
     img2.src = dynamicUrl(card2SetNo);
     form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo); //card2SetNo
 
+    if(dynamicUrlCardB(correspondenceTable(card2SetNo))==""){
+        img2b.style = "display:none";
+    } else {
+        img2b.src = dynamicUrlCardB(correspondenceTable(card2SetNo));
+        img2b.style = "display:inline";
+    }
+    
     form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, {
@@ -84,9 +196,23 @@
         img1.src = dynamicUrl(card1SetNo);
         form.elements['form-SetNo1'].value = correspondenceTable(card1SetNo); //card1SetNo
 
+        if(dynamicUrlCardB(correspondenceTable(card1SetNo))==""){
+            img1b.style = "display:none";
+        } else {
+            img1b.src = dynamicUrlCardB(correspondenceTable(card1SetNo));
+            img1b.style = "display:inline";
+        }
+        
         card2SetNo = Math.floor(Math.random() * availableCardsNumber) + 1;
         img2.src = dynamicUrl(card2SetNo);
         form.elements['form-SetNo2'].value = correspondenceTable(card2SetNo); //card2SetNo
 
+        if(dynamicUrlCardB(correspondenceTable(card2SetNo))==""){
+            img2b.style = "display:none";
+        } else {
+            img2b.src = dynamicUrlCardB(correspondenceTable(card2SetNo));
+            img2b.style = "display:inline";
+        }
     })
+    
 </script>
