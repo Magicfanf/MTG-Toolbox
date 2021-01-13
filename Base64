@@ -1,17 +1,37 @@
 <form name="submit-to-google-sheet">
   <input name="SetNo1" id="form-SetNo1" size=100 value="0">
   <img name="img1" width = 244 height = 340>
+  <img name="imgBase64" width = 244 height = 340>
 </form>
 
 <script>
 const form = document.forms['submit-to-google-sheet'];
+
+imageUrl = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
+
 const img1 = document.getElementbyId('img1');
 img1.width = 244;
 img1.height = 340;
-imageUrl = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
-img1.src = getBase64Image(imageUrl);
-//form.elements['form-SetNo1'].value = img1.src;
-document.body.appendChild(img1);
+img1.src=imageUrl;
+
+const imgBase64 = document.getElementbyId('imgBase64');
+imgBase64.width = 244;
+imgBase64.height = 340;
+
+const canvas = document.createElement("canvas");
+canvas.width = 244;
+canvas.height = 340;
+
+var ctx = canvas.getContext("2d");
+ctx.drawImage(img1, 0, 0);
+
+var dataURL = canvas.toDataURL("image/jpeg");
+imgBase64.src = dataURL.replace(/^data:image\/(png|jpg);base64,/,"");
+
+//document.body.appendChild(img1);
+//document.body.appendChild(imgBase64);
+//form.elements['form-SetNo1'].value = dataURL;
+
 
 /*function getBase64Image(imageUrl) {
   const canvas = document.createElement("canvas");
