@@ -10,21 +10,22 @@ const form = document.forms['submit-to-google-sheet'];
 var imageUrl = "https://docs.google.com/uc?export=view&id=1VFo1Dkw0T4IghN_e6vItp5sPSE62vubP";
 
 const img1 = document.getElementById('img1');
-img1.src=imageUrl;
-
-const imgBase64 = document.getElementById('imgBase64');
-
-const canvas = document.createElement("canvas");
-canvas.width = 163;
-canvas.height = 227;
 
 img1.onload = function() {
-var ctx = canvas.getContext("2d");
-ctx.drawImage(img1, 0, 0);
+  var ctx = canvas.getContext("2d");
+  ctx.drawImage(img1, 0, 0);
 }
+  const imgBase64 = document.getElementById('imgBase64');
 
-var dataURL = canvas.toDataURL("image/jpeg");
-form.elements['form-SetNo1'].value = dataURL;
+  const canvas = document.createElement("canvas");
+  canvas.width = img1.height;
+  canvas.height = img1.width;
+
+  var dataURL = canvas.toDataURL("image/jpeg");
+  form.elements['form-SetNo1'].value = dataURL;
+
+
+img1.src=imageUrl;
 
 imgBase64.src = dataURL;
 
