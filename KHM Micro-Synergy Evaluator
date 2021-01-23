@@ -15,7 +15,7 @@
 </form>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqblErL0potfBeV65P6eJ-sVyBzBqkA-rXb7nDIF6JnMV-ShJO/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmx19rMyw4heAdIexfxXwXESjdU9fbMTfR8Lcl-SoJpJH3s6_ngJj7PA/exec';
     const form = document.forms['submit-to-google-sheet'];
     const img1 = document.getElementById('img1');
     const img1b = document.getElementById('img1b');
