@@ -1,5 +1,5 @@
 <script>
-  let url = "https://script.google.com/macros/s/AKfycbyjUyNKfb-p3eDboVnkV9Zf66bZ5gija6vm8ryzvw/exec?page=Ranked_CU";
+  let url = "https://script.google.com/macros/s/AKfycbzmx19rMyw4heAdIexfxXwXESjdU9fbMTfR8Lcl-SoJpJH3s6_ngJj7PA/exec?page=Ranked_CU";
   fetch(url)
     .then((res) => res.json())
     .then((res) => {
